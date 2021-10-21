@@ -3,6 +3,8 @@ import Layout from "../components/Layout";
 import Slider from '../components/Home/Slider';
 import Video from "../components/Home/Video";
 import Impact from "../components/Home/Impact";
+import News from "../components/Home/News";
+import Partners from "../components/Home/Partners";
 import Helmet from 'react-helmet';
 
 
@@ -18,6 +20,8 @@ const IndexPage = () => {
         <Slider />
         <Video />
         <Impact />
+        <News />
+        <Partners />
       </Layout>
     </React.Fragment>
   )
