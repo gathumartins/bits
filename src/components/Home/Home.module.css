@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 94vh;
+    min-height: 94vh;
 }
 
 .footerStrip {
