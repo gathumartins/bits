@@ -5,7 +5,7 @@ import * as headerStyles from './Header.module.css';
 
 function Header() {
     return (
-        <section className="sticky-top">
+        <section className={`navbar fixed-top ${headerStyles.myHeader} shadow-md z-50`}>
             <header className="flex shadow-md">
                 <div className={`${headerStyles.navBrand} bg-white absolute`}>
                     <img src="./imgs/logo.png" alt="Nairobits Top Logo" fluid="true" />

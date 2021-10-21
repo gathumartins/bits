@@ -1,3 +1,7 @@
+.myHeader {
+    min-width: 100vw;
+}
+
 .navBrand {
     width: 120px;
     padding: 20px;
