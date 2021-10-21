@@ -5,12 +5,12 @@ import * as headerStyles from './Header.module.css';
 
 function Header() {
     return (
-        <section className={`navbar fixed-top ${headerStyles.myHeader} shadow-md z-50`}>
+        <section className={`navbar fixed-top ${headerStyles.myHeader}`}>
             <header className="flex shadow-md">
                 <div className={`${headerStyles.navBrand} bg-white absolute`}>
                     <img src="./imgs/logo.png" alt="Nairobits Top Logo" fluid="true" />
                 </div>
-                <nav className={`flex-grow bg-transparent p-4`}></nav>
+                <nav className={`flex-grow bg-transparent p-4 ${headerStyles.navi}`}></nav>
             </header>
         </section>
     )

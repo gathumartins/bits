@@ -1,5 +1,10 @@
 .myHeader {
     min-width: 100vw;
+    padding: 0px;
+}
+
+.navi {
+    min-width: 100vw;
 }
 
 .navBrand {
@@ -9,4 +14,12 @@
 }
 
 /* media queries */
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+    .navBrand {
+        width: 70px;
+    }
+
+    .navi {
+        background-color: var(--white) !important;
+    }
+}
