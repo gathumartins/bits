@@ -1,5 +1,6 @@
 .myHeader {
     min-width: 100vw;
+    min-height: 80 px;
     padding: 0px;
 }
 
@@ -11,6 +12,10 @@
     width: 120px;
     padding: 20px;
     border-radius: 0px 0px 14px 0px;
+}
+
+.scroll {
+    background-color: var(--white)
 }
 
 /* media queries */
