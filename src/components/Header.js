@@ -5,14 +5,17 @@ import * as headerStyles from './Header.module.css';
 
 function Header() {
     const [myHeader, setMyHeader] = useState(false);
-    const changemyHeading = () => {
-        if (window.scrollY >= 80) {
-            setMyHeader(true)
-        } else {
-            setMyHeader(false)
+    const isBrowser = typeof window !== "undefined"
+    if (isBrowser) {
+        const changemyHeading = () => {
+            if (window.scrollY >= 80) {
+                setMyHeader(true)
+            } else {
+                setMyHeader(false)
+            }
         }
+        window.addEventListener('scroll', changemyHeading);
     }
-    window.addEventListener('scroll', changemyHeading);
     return (
         <section className={`navbar  shadow-md fixed-top ${myHeader ? `${headerStyles.myHeader}, ${headerStyles.scroll}` : `${headerStyles.myHeader}`}`}>
             <header className="flex">
