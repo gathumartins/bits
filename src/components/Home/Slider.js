@@ -79,7 +79,7 @@ function Slider() {
                     </Carousel.Item>
                 </Carousel>
             </div>
-            <div className={sliderStyles.footerStrip}></div>
+            <div className={`${sliderStyles.footerStrip} clear-both`}></div>
         </React.Fragment>
     )
 }

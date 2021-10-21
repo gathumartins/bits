@@ -5,12 +5,16 @@
     background-position: center;
     background-repeat: no-repeat;
     min-height: 94vh;
+    clear: both;
 }
 
 .footerStrip {
     height: 6px;
     width: 100%;
-    background: linear-gradient(to right, var(--deepOrange) 20%, var(--deepCyan) 20% 50%, var(--deepBlue) 50% 80%, var(--footLinksHover) 80%) !important;
+    background: -webkit-gradient(linear, to right, var(--deepOrange) 20%, var(--deepCyan) 20% 50%, var(--deepBlue) 50% 80%, var(--deepGreen) 80%);
+    background: -webkit-linear-gradient(to right, var(--deepOrange) 20%, var(--deepCyan) 20% 50%, var(--deepBlue) 50% 80%, var(--deepGreen) 80%);
+    background: -moz-linear-gradient(to right, var(--deepOrange) 20%, var(--deepCyan) 20% 50%, var(--deepBlue) 50% 80%, var(--deepGreen) 80%);
+    background: linear-gradient(to right, var(--deepOrange) 20%, var(--deepCyan) 20% 50%, var(--deepBlue) 50% 80%, var(--deepGreen) 80%);
 }
 
 .caption {

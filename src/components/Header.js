@@ -7,8 +7,8 @@ function Header() {
     return (
         <section className="sticky-top">
             <header className="flex shadow-md">
-                <div className={`${headerStyles.navBrand} w-20 bg-white absolute`}>
-                    <img src="./imgs/logo.png" alt="Nairobits Top Logo" />
+                <div className={`${headerStyles.navBrand} bg-white absolute`}>
+                    <img src="./imgs/logo.png" alt="Nairobits Top Logo" fluid="true" />
                 </div>
                 <nav className={`flex-grow bg-transparent p-4`}></nav>
             </header>

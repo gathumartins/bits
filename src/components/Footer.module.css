@@ -5,8 +5,10 @@
 .footStrip {
     height: 3px;
     width: 100%;
-    background: linear-gradient(to right,
-            var(--deepOrange) 20%, var(--deepCyan) 20% 50%, var(--deepBlue) 50% 80%, var(--footLinksHover) 80%);
+    background: -webkit-gradient(linear, to right, var(--deepOrange) 20%, var(--deepCyan) 20% 50%, var(--deepBlue) 50% 80%, var(--deepGreen) 80%);
+    background: -webkit-linear-gradient(to right, var(--deepOrange) 20%, var(--deepCyan) 20% 50%, var(--deepBlue) 50% 80%, var(--deepGreen) 80%);
+    background: -moz-linear-gradient(to right, var(--deepOrange) 20%, var(--deepCyan) 20% 50%, var(--deepBlue) 50% 80%, var(--deepGreen) 80%);
+    background: linear-gradient(to right, var(--deepOrange) 20%, var(--deepCyan) 20% 50%, var(--deepBlue) 50% 80%, var(--deepGreen) 80%);
 }
 
 .footerTop {
@@ -99,7 +101,7 @@
 }
 
 .footerBtmCont ul li a:hover {
-    color: var(--footLinksHover);
+    color: var(--deepGreen);
 }
 
 .widefootMenu {
@@ -111,7 +113,7 @@
     text-align: right;
 } */
 .doniAccess {
-    background-color: var(--footLinksHover);
+    background: var(--deepGreen);
 }
 
 .donBtn {
@@ -119,7 +121,7 @@
 }
 
 .applyBtn {
-    border: 4px solid var(--footLinksHover);
+    border: 4px solid var(--deepGreen);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
