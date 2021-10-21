@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'Tahoma', sans-serif;
+    src: url('../fonts/Tahoma.woff2') format('woff2'),
+        url('../fonts/Tahoma.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tahoma Bold', sans-serif;
+    src: url('../fonts/Tahoma-Bold.woff2') format('woff2'),
+        url('../fonts/Tahoma-Bold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* Colors: */
+    --unnamed-color-a7775e: #A7775E;
+    --midGray: #707070;
+    --white: #FFFFFF;
+    --socialPurple: #6C63FF;
+    --lightPurple: #DADAFF;
+    --unnamed-color-acacfa: #ACACFA;
+    --titleBlue: #2727B5;
+    --colorBlue: #0000A9;
+    --lightGreen: #C4E3DF;
+    --unnamed-color-a3d4cf: #A3D4CF;
+    --unnamed-color-62bdb6: #62BDB6;
+    --deepGreen: #22A9A1;
+    --unnamed-color-d9dbfa: #D9DBFA;
+    --unnamed-color-8e94fa: #8E94FA;
+    --unnamed-color-434cf5: #434CF5;
+    --deepBlue: #0C0DF5;
+    --footCyanMajor: #DAFFFA;
+    --footBlueDark: #040434;
+    --unnamed-color-a2faf3: #A2FAF3;
+    --unnamed-color-88f7e9: #88F7E9;
+    --deepCyan: #25F5E9;
+    --unnamed-color-e5e5e5: #E5E5E5;
+    --unnamed-color-919395: #919395;
+    --unnamed-color-444445: #444445;
+    --bBlack: #000101;
+    --beigeColor: #FFEBCD;
+    --unnamed-color-facd7e: #FACD7E;
+    --footOrange: #FAB630;
+    --deepOrange: #F7A31A;
+
+    /* fonts */
+    --primaryFont: 'Sans Pro', sans-serif;
+    --secondaryFont: 'Tahoma', sans-serif;
+    --secondaryFontB: 'Tahoma Bold',
+        sans-serif;
+}
+
+.sidebar {
+    min-width: 120px;
+}
+
+.socialLinks li a {
+    color: var(--socialPurple);
+}
+
+.socialLinks a:hover {
+    color: var(--footOrange);
+}
+
+@media only screen and (min-width: 768px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: 90%;
+    }
+}

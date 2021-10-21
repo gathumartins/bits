@@ -8,6 +8,11 @@ module.exports = {
       resolve: "gatsby-source-wordpress",
       options: {
         url: "https://dawn.nairobits.com/graphql",
+        schema: {
+          perPage: 20,
+          requestConcurrency: 5,
+          previewRequestConcurrency: 2,
+        },
       },
     },
     "gatsby-plugin-image",
@@ -38,5 +43,6 @@ module.exports = {
       },
       __key: "pages",
     },
+    "gatsby-plugin-postcss",
   ],
 };
