@@ -8,6 +8,11 @@
     clear: both;
 }
 
+.slideImages {
+    display: inline-block;
+    margin: 0 auto;
+}
+
 .footerStrip {
     height: 6px;
     width: 100%;
@@ -23,9 +28,9 @@
 
 .caption h1 {
     font-family: var(--secondaryFont);
-    font-weight: 600;
+    font-weight: 900;
     color: var(--deepOrange);
-    font-size: 5rem;
+    font-size: 4rem;
     margin-bottom: 20px;
     text-shadow: 0px 13px 26px #00000052;
 }
@@ -34,7 +39,7 @@
     margin-top: 50px;
     color: var(--white);
     font-family: var(--primaryFont);
-    font-Size: 1.8rem;
+    font-Size: 1.6rem;
 }
 
 .indicators li {
@@ -201,3 +206,21 @@
 }
 
 /* media Queries */
+
+@media only screen and (max-width: 767px) {
+    .slider {
+        padding: 120px 15px;
+    }
+
+    .caption h1 {
+        font-size: 2rem;
+    }
+
+    .caption p {
+        font-size: 1rem;
+    }
+
+    .indicators li {
+        font-size: 0.7rem;
+    }
+}

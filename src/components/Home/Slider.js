@@ -11,11 +11,11 @@ function Slider() {
                     <Carousel.Item >
                         <Container>
                             <Row className="flex-row-reverse">
-                                <Col xs={12} sm={12} md={12} lg={6} className="flex text-center items-center">
+                                <Col xs={12} sm={12} md={12} lg={6} className="flex text-center items-center mb-5">
                                     <img
                                         src="./imgs/bannerone.png"
                                         alt="First slide"
-                                        fluid="true" className="h-3/4 md:h-1/2" />
+                                        fluid="true" className={sliderStyles.slideImages} />
                                 </Col>
                                 <Col xs={12} sm={12} md={12} lg={6} className={`flex items-center`}>
                                     <div className={sliderStyles.caption}>
@@ -34,11 +34,11 @@ function Slider() {
                     <Carousel.Item>
                         <Container>
                             <Row className="flex-row-reverse">
-                                <Col xs={12} sm={12} md={12} lg={6} className="flex text-center items-center">
+                                <Col xs={12} sm={12} md={12} lg={6} className="flex text-center items-center mb-5">
                                     <img
                                         src="./imgs/bannerone.png"
                                         alt="First slide"
-                                        fluid="true" className="h-3/4 md:h-1/2" />
+                                        fluid="true" className={sliderStyles.slideImages} />
                                 </Col>
                                 <Col xs={12} sm={12} md={12} lg={6} className={`flex items-center`}>
                                     <div className={sliderStyles.caption}>
@@ -57,11 +57,11 @@ function Slider() {
                     <Carousel.Item>
                         <Container>
                             <Row className="flex-row-reverse">
-                                <Col xs={12} sm={12} md={12} lg={6} className="flex text-center items-center">
+                                <Col xs={12} sm={12} md={12} lg={6} className="flex text-center items-center mb-5">
                                     <img
                                         src="./imgs/bannerone.png"
                                         alt="First slide"
-                                        fluid="true" className="h-3/4 md:h-1/2" />
+                                        fluid="true" className={sliderStyles.slideImages} />
                                 </Col>
                                 <Col xs={12} sm={12} md={12} lg={6} className={`flex items-center`}>
                                     <div className={sliderStyles.caption}>
