@@ -144,4 +144,10 @@
     .socialLinks {
         max-width: 100%;
     }
+
+    .doniAccess,
+    .donBtn,
+    .applyBtn {
+        width: 60%;
+    }
 }
