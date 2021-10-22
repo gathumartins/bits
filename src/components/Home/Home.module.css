@@ -233,6 +233,10 @@
         padding: 120px 15px;
     }
 
+    .slideImages {
+        width: 100%;
+    }
+
     .caption h1 {
         font-size: 2rem;
     }
@@ -244,4 +248,5 @@
     .indicators li {
         font-size: 0.7rem;
     }
+
 }

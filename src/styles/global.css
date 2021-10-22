@@ -68,7 +68,7 @@
 /* banner animation */
 @keyframes breath {
     0% {
-        background-size: 160% auto;
+        background-size: 160% 100%;
     }
 
     /* 50% {
@@ -76,7 +76,7 @@
     } */
 
     100% {
-        background-size: 100% auto;
+        background-size: 100% 100%;
     }
 }
 
@@ -84,7 +84,7 @@
     animation: breath 7s linear infinite;
     background-image: url('../../static/imgs/slider.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     min-height: 99vh;
 }
