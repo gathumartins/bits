@@ -10,7 +10,8 @@ function News() {
                     <Col xs={12} className={`text-center ${partnerStyles.Headings}`}>
                         <h1>Bits news</h1>
                     </Col>
-                    <Col></Col>
+                    <Col className="my-20">
+                    </Col>
                 </Row>
             </Container>
         </section>

@@ -228,6 +228,7 @@
 }
 
 /* media Queries */
+
 @media only screen and (max-width: 767px) {
     .slider {
         padding: 120px 15px;

@@ -10,7 +10,17 @@ function Partners() {
                     <Col xs={12} className={`text-center ${partnerStyles.Headings}`}>
                         <h1>Partners</h1>
                     </Col>
-                    <Col></Col>
+                    <Col>
+                        <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 my-20">
+                            <li className="text-center">1</li>
+                            <li className="text-center">2</li>
+                            <li className="text-center">3</li>
+                            <li className="text-center">4</li>
+                        </ul>
+                        <div className="text-center">
+                            <a href="/">VIEW MORE</a>
+                        </div>
+                    </Col>
                 </Row>
             </Container>
         </section>
