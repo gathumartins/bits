@@ -8,7 +8,7 @@ function Header() {
     const isBrowser = typeof window !== "undefined"
     if (isBrowser) {
         const changemyHeading = () => {
-            if (window.scrollY >= 80) {
+            if (window.scrollY >= 50) {
                 setMyHeader(true)
             } else {
                 setMyHeader(false)

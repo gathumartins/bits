@@ -8,6 +8,10 @@
     clear: both;
 }
 
+.mySlides {
+    min-height: 80vh;
+}
+
 .slideImages {
     display: inline-block;
     margin: 0 auto;

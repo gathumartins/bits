@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.4",
+    "@iconfu/svg-inject": "^1.2.3",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "bootstrap": "^5.1.1",

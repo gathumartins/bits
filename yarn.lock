@@ -1367,6 +1367,11 @@
   "resolved" "https://registry.npmjs.org/@iarna/toml/-/toml-2.2.5.tgz"
   "version" "2.2.5"
 
+"@iconfu/svg-inject@^1.2.3":
+  "integrity" "sha512-3v1MUAJqmJS4jmhHoCkSxt+EdJrjPHlLXrWocCT25kCxnxJto8028Z6CC406EL11KA53SDZgI/QQA5GEJAoiRw=="
+  "resolved" "https://registry.npmjs.org/@iconfu/svg-inject/-/svg-inject-1.2.3.tgz"
+  "version" "1.2.3"
+
 "@jest/types@^25.5.0":
   "integrity" "sha512-OXD0RgQ86Tu3MazKo8bnrkDRaDXXMGUqd+kTtLtK1Zb7CRzQcaSRPPPV37SvYTdevXEBVxe0HXylEjs8ibkmCw=="
   "resolved" "https://registry.npmjs.org/@jest/types/-/types-25.5.0.tgz"

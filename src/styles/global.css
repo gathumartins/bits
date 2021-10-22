@@ -40,7 +40,7 @@
     --unnamed-color-a3d4cf: #A3D4CF;
     --unnamed-color-62bdb6: #62BDB6;
     --deepGreen: #22A9A1;
-    --unnamed-color-d9dbfa: #D9DBFA;
+    --lighterPurple: #D9DBFA;
     --unnamed-color-8e94fa: #8E94FA;
     --unnamed-color-434cf5: #434CF5;
     --deepBlue: #0C0DF5;
@@ -51,7 +51,7 @@
     --deepCyan: #25F5E9;
     --unnamed-color-e5e5e5: #E5E5E5;
     --unnamed-color-919395: #919395;
-    --unnamed-color-444445: #444445;
+    --deepGray: #444445;
     --bBlack: #000101;
     --beigeColor: #FFEBCD;
     --unnamed-color-facd7e: #FACD7E;
@@ -83,6 +83,6 @@
     .container-lg,
     .container-md,
     .container-sm {
-        max-width: 90%;
+        max-width: 85%;
     }
 }

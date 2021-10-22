@@ -8,14 +8,13 @@ function Slider() {
             <div className={`flex top-0 ${sliderStyles.slider}`}>
                 <Sidebar />
                 <Carousel className="px-2 sm:px-5 md:p-20 w-screen" controls={false}>
-                    <Carousel.Item >
-                        <Container>
-                            <Row className="flex-row-reverse">
+                    <Carousel.Item>
+                        <Container className={`flex align-items-center ${sliderStyles.mySlides}`}>
+                            <Row className="flex-row-reverse flex-grow">
                                 <Col xs={12} sm={12} md={12} lg={6} className="flex text-center items-center mb-5">
                                     <img
-                                        src="./imgs/bannerone.png"
-                                        alt="First slide"
-                                        fluid="true" className={sliderStyles.slideImages} />
+                                        src="./imgs/transform.svg"
+                                        alt="First slide" fluid="true" className={sliderStyles.slideImages} />
                                 </Col>
                                 <Col xs={12} sm={12} md={12} lg={6} className={`flex items-center`}>
                                     <div className={sliderStyles.caption}>
@@ -32,11 +31,11 @@ function Slider() {
                         </Container>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <Container>
-                            <Row className="flex-row-reverse">
+                        <Container className={`d-flex align-items-center ${sliderStyles.mySlides}`}>
+                            <Row className="flex-row-reverse flex-grow">
                                 <Col xs={12} sm={12} md={12} lg={6} className="flex text-center items-center mb-5">
                                     <img
-                                        src="./imgs/bannerone.png"
+                                        src="./imgs/transform.svg"
                                         alt="First slide"
                                         fluid="true" className={sliderStyles.slideImages} />
                                 </Col>
@@ -55,11 +54,11 @@ function Slider() {
                         </Container>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <Container>
-                            <Row className="flex-row-reverse">
+                        <Container className={`d-flex align-items-center ${sliderStyles.mySlides}`}>
+                            <Row className="flex-row-reverse flex-grow">
                                 <Col xs={12} sm={12} md={12} lg={6} className="flex text-center items-center mb-5">
                                     <img
-                                        src="./imgs/bannerone.png"
+                                        src="./imgs/transform.svg"
                                         alt="First slide"
                                         fluid="true" className={sliderStyles.slideImages} />
                                 </Col>
