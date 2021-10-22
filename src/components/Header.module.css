@@ -6,6 +6,11 @@
 
 .navi {
     min-width: 100vw;
+    background-color: transparent;
+}
+
+.sticky {
+    min-width: 100vw;
 }
 
 .navBrand {
@@ -15,7 +20,7 @@
 }
 
 .scroll {
-    background-color: var(--white)
+    background-color: var(--white);
 }
 
 /* media queries */

@@ -6,7 +6,7 @@ function Partners() {
     return (
         <section className={`${partnerStyles.partners}`}>
             <Container className={partnerStyles.partnerCont}>
-                <Row className={`d-flex align-items-center ${partnerStyles.partnerContIn}`}>
+                <Row className={`d-flex align-items-center`}>
                     <Col xs={12} className={`text-center ${partnerStyles.Headings}`}>
                         <h1>Partners</h1>
                     </Col>

@@ -17,12 +17,12 @@ function Header() {
         window.addEventListener('scroll', changemyHeading);
     }
     return (
-        <section className={`navbar  shadow-md fixed-top ${myHeader ? `${headerStyles.myHeader}, ${headerStyles.scroll}` : `${headerStyles.myHeader}`}`}>
+        <section className={`navbar fixed-top ${headerStyles.myHeader}`}>
             <header className="flex">
-                <div className={`${headerStyles.navBrand} bg-white absolute`}>
+                <div className={`${headerStyles.navBrand} bg-white absolute shadow-sm z-50`}>
                     <img src="./imgs/logo.png" alt="Nairobits Top Logo" fluid="true" />
                 </div>
-                <nav className={`flex-grow bg-transparent p-4 ${headerStyles.navi}`}></nav>
+                <nav className={`fixed-top z-20 shadow-md p-4 ${myHeader ? `${headerStyles.navi}, ${headerStyles.scroll}` : `${headerStyles.navi}`}`}></nav>
             </header>
         </section>
     )

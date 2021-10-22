@@ -6,7 +6,7 @@ function News() {
     return (
         <section className={`${partnerStyles.news}`}>
             <Container className={partnerStyles.partnerCont}>
-                <Row className={`d-flex align-items-center ${partnerStyles.partnerContIn}`}>
+                <Row className={`d-flex align-items-center`}>
                     <Col xs={12} className={`text-center ${partnerStyles.Headings}`}>
                         <h1>Bits news</h1>
                     </Col>
