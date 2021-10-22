@@ -1,13 +1,4 @@
 /* slider styles */
-.slider {
-    background-image: url('../../../static/imgs/sliderbg.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 99vh;
-    clear: both;
-}
-
 .mySlides {
     min-height: 80vh;
 }
@@ -15,6 +6,7 @@
 .slideImages {
     display: inline-block;
     margin: 0 auto;
+    min-width: 125%;
 }
 
 .footerStrip {

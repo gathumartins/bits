@@ -5,7 +5,7 @@ import * as sliderStyles from './Home.module.css';
 function Slider() {
     return (
         <React.Fragment>
-            <div className={`flex top-0 ${sliderStyles.slider}`}>
+            <div className={`flex top-0 slider`}>
                 <Sidebar />
                 <Carousel className="px-2 sm:px-5 md:p-20 w-screen" controls={false}>
                     <Carousel.Item>

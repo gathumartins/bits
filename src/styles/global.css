@@ -65,6 +65,30 @@
         sans-serif;
 }
 
+/* banner animation */
+@keyframes breath {
+    0% {
+        background-size: 160% auto;
+    }
+
+    /* 50% {
+        background-size: 140% auto;
+    } */
+
+    100% {
+        background-size: 100% auto;
+    }
+}
+
+.slider {
+    animation: breath 7s linear infinite;
+    background-image: url('../../static/imgs/slider.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 99vh;
+}
+
 .sidebar {
     min-width: 100px;
     padding-right: 35px;
