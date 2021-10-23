@@ -227,6 +227,45 @@ h2 {
     background-color: var(--deepGreen) !important;
 }
 
+/* History page styles */
+.historyBanOut {
+    background-image: linear-gradient(to bottom, var(--footCyanMajor)50%, var(--white)50%);
+}
+
+.historyBan {
+    min-height: 800px;
+    background-image: url('../../../static/imgs/histbg.svg');
+    background-size: 100% 80%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+    padding-top: 200px;
+}
+
+.historyBan h2 {
+    color: var(--titleBlue);
+}
+
+.historyBan P {
+    font-weight: normal;
+    font-family: var(--primaryFont);
+    font-size: 0.9rem;
+    color: var(--deepGray);
+    margin-bottom: 15px;
+}
+
+.founderCont {
+    min-height: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--lightOrange)
+}
+
+.founderCont h2 {
+    color: var(--deepOrange);
+    text-align: center;
+}
+
 @media only screen and (min-width: 768px) {
     .coreValue {
         max-width: 250px;

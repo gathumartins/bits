@@ -28,7 +28,7 @@
 :root {
 
     /* Colors: */
-    --unnamed-color-a7775e: #A7775E;
+    --lightOrange: rgba(167, 119, 94, 0.04);
     --midGray: #707070;
     --white: #FFFFFF;
     --socialPurple: #6C63FF;
@@ -54,7 +54,7 @@
     --deepGray: #444445;
     --bBlack: #000101;
     --beigeColor: #FFEBCD;
-    --unnamed-color-facd7e: #FACD7E;
+    --siteOrange: #FACD7E;
     --footOrange: #FAB630;
     --deepOrange: #F7A31A;
 
