@@ -2,9 +2,10 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import * as whoStyles from './about.module.css';
 
-function WhoWeAreBan() {
+function WhoTop() {
     return (
         <React.Fragment>
+
             <header className={`${whoStyles.topPage} d-flex align-items-center min-h-screen py-20`}>
                 <Container fluid={`md`} className={whoStyles.banInn}>
                     <Row>
@@ -50,4 +51,4 @@ function WhoWeAreBan() {
     )
 }
 
-export default WhoWeAreBan;
+export default WhoTop;
