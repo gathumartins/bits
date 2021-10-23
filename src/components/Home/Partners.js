@@ -11,11 +11,11 @@ function Partners() {
                         <h1>Partners</h1>
                     </Col>
                     <Col>
-                        <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 my-20">
-                            <li className="text-center">1</li>
-                            <li className="text-center">2</li>
-                            <li className="text-center">3</li>
-                            <li className="text-center">4</li>
+                        <ul className={`grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-3 my-20 ${partnerStyles.partnerLogo}`}>
+                            <li className="text-center"><img src="./imgs/googlelogo.png" alt="google logo" fluid="true" /></li>
+                            <li className="text-center"><img src="./imgs/uniceflogo.png" alt="unicef logo" fluid="true" /></li>
+                            <li className="text-center"><img src="./imgs/amreflogo.png" alt="amref logo" fluid="true" /></li>
+                            <li className="text-center"><img src="./imgs/rutgerslogo.png" alt="rutgers logo" fluid="true" /></li>
                         </ul>
                         <div className="text-center">
                             <a href="/">VIEW MORE</a>

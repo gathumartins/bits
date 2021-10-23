@@ -35,7 +35,7 @@ function Slider() {
                             <Row className="flex-row-reverse flex-grow">
                                 <Col xs={12} sm={12} md={12} lg={6} className="flex text-center items-center mb-5">
                                     <img
-                                        src="./imgs/transform.svg"
+                                        src="./imgs/innovate.svg"
                                         alt="First slide"
                                         fluid="true" className={sliderStyles.slideImages} />
                                 </Col>
