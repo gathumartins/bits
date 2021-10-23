@@ -5,6 +5,7 @@
     background-position: bottom center;
     background-repeat: no-repeat;
     z-index: -2;
+    padding-bottom: 150px;
 }
 
 .banInn {
@@ -61,7 +62,7 @@ h2 {
 }
 
 .misvis {
-    min-height: 450px;
+    min-height: 250px;
     padding-bottom: 50px;
 }
 
@@ -99,6 +100,36 @@ h2 {
     font-size: 1.7rem;
 }
 
+/* core styles */
+.coreHeading h1 {
+    color: var(--titleBlue);
+    font-family: var(--secondaryFont);
+    font-size: 3rem;
+    font-weight: Bold;
+    margin-bottom: 100px;
+}
+
+.coreOuter {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.coreValue h5 {
+    min-height: 50px;
+    margin-bottom: 20px;
+    color: var(--colorBlue);
+    font-family: var(--primaryFont);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.coreValue p {
+    font-weight: 300;
+    font-family: var(--primaryFont);
+    font-size: 1rem;
+    color: var(--deepGray)
+}
+
 /* ops section */
 .opsOuter {
     background: rgba(167, 119, 94, 0.04);
@@ -119,11 +150,56 @@ h2 {
 
 }
 
+.opOuter {
+    position: relative;
+}
+
 .opOuter div {
     width: 200px;
     min-height: 150px;
     border-radius: 11px;
-    padding: 35px 15px;
+    padding: 60px 15px 30px;
+}
+
+.iconsOp {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: var(--deepGreen);
+    position: absolute;
+    left: 40%;
+}
+
+.opOuter:nth-child(odd) .iconsOp {
+    background-color: var(--deepGreen);
+}
+
+.opOuter:nth-child(even) .iconsOp {
+    background-color: var(--footCyanMajor);
+}
+
+.opOuter:before {
+    content: " ";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -10px;
+    z-index: 20;
+}
+
+.opOuter:nth-child(odd)::before {
+    left: 33%;
+    border-top: 12px solid transparent;
+    border-right: 24px solid var(--deepOrange);
+    border-bottom: 12px solid transparent;
+}
+
+.opOuter:nth-child(even)::before {
+    left: 48%;
+    border-top: 12px solid transparent;
+    border-left: 24px solid var(--midPurple);
+    border-bottom: 12px solid transparent;
 }
 
 .opOuter:nth-child(odd) div {
@@ -135,7 +211,7 @@ h2 {
 }
 
 .opOuter h4 {
-    min-height: 80px;
+    height: 60px;
     max-width: 120px;
     color: var(--deepGreen);
     font-family: var(--primaryFont);
@@ -149,4 +225,10 @@ h2 {
     width: 80px !important;
     padding: 0 !important;
     background-color: var(--deepGreen) !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .coreValue {
+        max-width: 250px;
+    }
 }
