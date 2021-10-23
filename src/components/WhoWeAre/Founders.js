@@ -8,7 +8,7 @@ function Founders() {
         <section className={foundStyles.founderCont}>
             <Container fluid={`md`}>
                 <Row>
-                    <Col xs={12} className="text-center">
+                    <Col xs={12}>
                         <h2>In their words</h2>
                     </Col>
                 </Row>
