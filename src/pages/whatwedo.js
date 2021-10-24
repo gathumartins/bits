@@ -34,6 +34,43 @@ function programs() {
                                                 <p>Increasing job job readiness and pathways for employment in the ICT space for young people through technical guidance, prudent training methodologies and continuous mentorship, students increase</p>
                                             </div>
                                         </Col>
+                                        <div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 align-items-strecth ${proStyles.progs}`}>
+                                            <div>
+                                                <div className={proStyles.progsTop}>
+                                                    <h5>Digital Literacy Program</h5>
+                                                    <p>A 12-week course for novice youth</p>
+                                                </div>
+                                                <div className={proStyles.progsBtm}></div>
+                                            </div>
+                                            <div>
+                                                <div className={proStyles.progsTop}>
+                                                    <h5>Advanced Multimedia Program</h5>
+                                                    <p>A 9 month apprenticeship diploma specialization in design or coding</p>
+                                                </div>
+                                                <div className={proStyles.progsBtm}></div>
+                                            </div>
+                                            <div>
+                                                <div className={proStyles.progsTop}>
+                                                    <h5>Video Impact Training</h5>
+                                                    <p>1 Week training that produces mobile storytellers</p>
+                                                </div>
+                                                <div className={proStyles.progsBtm}></div>
+                                            </div>
+                                            <div>
+                                                <div className={proStyles.progsTop}>
+                                                    <h5>Core Acumen</h5>
+                                                    <p>Complimentary programs that promote responsible living</p>
+                                                </div>
+                                                <div className={proStyles.progsBtm}></div>
+                                            </div>
+                                            <div>
+                                                <div className={proStyles.progsTop}>
+                                                    <h5>Labour Market Integration</h5>
+                                                    <p>Facilitating entry to the labour market through volunteerships, internships and corporate learning programs</p>
+                                                </div>
+                                                <div className={proStyles.progsBtm}></div>
+                                            </div>
+                                        </div>
                                     </Row>
                                 </Container>
                             </div>
@@ -48,6 +85,29 @@ function programs() {
                                                 <p>Programs that seek to deal with the realities that our youth live in and awakening youth to those realities</p>
                                             </div>
                                         </Col>
+                                        <div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 align-items-strecth ${proStyles.progs}`}>
+                                            <div>
+                                                <div className={proStyles.progsTop}>
+                                                    <h5>Entrepreneurship & Business Coaching</h5>
+                                                    <p>Preparing entrepreneurially gifted students for careers in business</p>
+                                                </div>
+                                                <div className={proStyles.progsBtm}></div>
+                                            </div>
+                                            <div>
+                                                <div className={proStyles.progsTop}>
+                                                    <h5>Right Here Right Now 2</h5>
+                                                    <p>A 5 year consortium for the nationwide SRHR change</p>
+                                                </div>
+                                                <div className={proStyles.progsBtm}></div>
+                                            </div>
+                                            <div>
+                                                <div className={proStyles.progsTop}>
+                                                    <h5>Youth in Action</h5>
+                                                    <p>Empowering youth to gain skills, voice, and participate in youth-identified policy priorities in Kenya regarding sexual and reproductive health and rights</p>
+                                                </div>
+                                                <div className={proStyles.progsBtm}></div>
+                                            </div>
+                                        </div>
                                     </Row>
                                 </Container>
                             </div>
@@ -62,6 +122,22 @@ function programs() {
                                                 <p>In creating world-wide opportunities, we partner with international institutions for knowledge sharing and increasing the opportunity base for collaboration and cultural exchange.</p>
                                             </div>
                                         </Col>
+                                        <div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 align-items-strecth ${proStyles.progs}`}>
+                                            <div>
+                                                <div className={proStyles.progsTop}>
+                                                    <h5>#WeAreBits</h5>
+                                                    <p>Preparing entrepreneurially gifted students for careers in business</p>
+                                                </div>
+                                                <div className={proStyles.progsBtm}></div>
+                                            </div>
+                                            <div>
+                                                <div className={proStyles.progsTop}>
+                                                    <h5>S-Bize</h5>
+                                                    <p>A 5 year consortium for the nationwide SRHR change</p>
+                                                </div>
+                                                <div className={proStyles.progsBtm}></div>
+                                            </div>
+                                        </div>
                                     </Row>
                                 </Container>
                             </div>

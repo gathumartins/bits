@@ -13,8 +13,7 @@
 }
 
 .proConts>div:nth-child(even) {
-    background-color: var(--footCyanMajor);
-
+    background: rgba(218, 255, 250, 0.36)
 }
 
 .proBtm>div {
@@ -85,6 +84,64 @@
 
 .proHead p {
     max-width: 600px;
+    font-family: var(--primaryFont);
+    font-size: 1rem;
+}
+
+.progs {
+    padding: 50px 90px;
+}
+
+.progs>div {
+    min-height: 400px;
+    border-radius: 11px;
+    position: relative;
+    background-color: var(--beigeColor);
+}
+
+.progs>div:first-child {
+    background-color: var(--beigeColor);
+}
+
+.progs>div:nth-child(2) {
+    background-color: var(--footCyanMajor);
+}
+
+.progs>div:nth-child(3) {
+    background-color: var(--lighterPurple);
+}
+
+.progs>div:nth-child(4) {
+    background-color: var(--lightGreen);
+}
+
+.progsTop {
+    padding: 25px 20px;
+}
+
+.progsTop h5 {
+    font-family: var(--primaryFont);
+    font-weight: 900;
+    font-size: 1rem;
+    color: var(--bBlack);
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+}
+
+.progsTop P {
+    color: var(midGray);
+    font-family: var(--primaryFont);
+    font-size: 1rem;
+}
+
+.progsBtm {
+    min-height: 100px;
+    width: 100%;
+    border-radius: 11px;
+    padding: 25px 20px;
+    background: #B16AAB46;
+    position: absolute;
+    bottom: 0;
 }
 
 @media only screen and (min-width: 768px) {
