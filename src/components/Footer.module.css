@@ -114,14 +114,35 @@
 } */
 .doniAccess {
     background: var(--deepGreen);
+    border: 3px solid var(--deepGreen);
+    transition: all ease 0.3s;
+}
+
+.doniAccess:hover {
+    background: transparent;
 }
 
 .donBtn {
     background: var(--footOrange);
+    border: 3px solid var(--footOrange);
+    transition: all ease 0.3s;
+}
+
+.donBtn:hover {
+    background: transparent;
 }
 
 .applyBtn {
-    border: 4px solid var(--deepGreen);
+    border: 3px solid var(--deepGreen);
+    transition: all ease 0.3s;
+}
+
+.applyBtn:hover {
+    background: var(--deepGreen);
+}
+
+.applyBtn:hover>a {
+    color: var(--white) !important;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

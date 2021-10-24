@@ -12,11 +12,11 @@ function Impact() {
                     </Col>
                     <Col xs={12}>
                         <Row className={impactStyles.impactFig}>
-                            <Col xs={12} sm={12} md={6} lg={3} className={`${impactStyles.imFigures}`}>
+                            <Col xs={12} sm={12} md={6} lg={2} className={`${impactStyles.imFigures}`}>
                                 <h3>22</h3>
                                 <p>years of existence</p>
                             </Col>
-                            <Col xs={12} sm={12} md={6} lg={3} className={`${impactStyles.imFigures}`}>
+                            <Col xs={12} sm={12} md={6} lg={4} className={`${impactStyles.imFigures}`}>
                                 <h3>10,000+</h3>
                                 <p>youth Impacted</p>
                             </Col>

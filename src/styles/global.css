@@ -33,7 +33,7 @@
     --white: #FFFFFF;
     --socialPurple: #6C63FF;
     --lightPurple: #DADAFF;
-    --unnamed-color-acacfa: #ACACFA;
+    --spePurple: #ACACFA;
     --titleBlue: #2727B5;
     --colorBlue: #0000A9;
     --lightGreen: #C4E3DF;
@@ -97,6 +97,94 @@
 
 .socialLinks a:hover {
     color: var(--footOrange);
+}
+
+/* common inner pages heder */
+.commonbgOuter {
+    background-image: linear-gradient(to bottom, var(--footCyanMajor)190px, var(--white)151px);
+}
+
+.commonMidBg {
+    min-height: 450px;
+    background: url('../../static/imgs/innermidbg.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    background-position: top center;
+}
+
+.commonSmallBg {
+    min-height: 400px;
+    background: url('../../static/imgs/innersmallbg.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    background-position: top center;
+}
+
+.commonSmallBg {
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.commonHeader {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.commonHeader h2 {
+    font-family: var(--primaryFont);
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: 0px;
+    margin-bottom: 25px;
+}
+
+.commonHeader p {
+    font-family: var(--primaryFont);
+    font-size: 1.2rem;
+    color: var(--deepGray)
+}
+
+/* team styles */
+.teamName {
+    font-family: var(--primaryFont);
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--dBlack);
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+}
+
+.teamLinkedin {
+    color: var(--socialPurple);
+    transition: all ease 0.6s;
+}
+
+.teamLinkedin:hover {
+    color: var(--deepOrange);
+}
+
+.teamDes {
+    font-family: var(--primaryFont);
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: var(--deepGreen);
+}
+
+
+@media only screen and (min-width: 1166px) {
+    .mobileHam {
+        display: none
+    }
+
+}
+
+@media only screen and (max-width:991px) {
+    /* .mobileMenu {
+        margin-left: 50px;
+        float: right
+    } */
 }
 
 @media only screen and (min-width: 768px) {

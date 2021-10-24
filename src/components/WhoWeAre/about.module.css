@@ -14,7 +14,7 @@
 
 h2 {
     text-align: left;
-    font-family: --var(--primaryFont);
+    font-family: var(--primaryFont);
     font-weight: 900;
     font-size: 2.5rem;
     letter-spacing: 0px;
@@ -27,7 +27,7 @@ h2 {
 
 .banInn p {
     text-align: left;
-    font-family: --var(--primaryFont);
+    font-family: var(--primaryFont);
     font-size: 1.1rem;
     letter-spacing: 0px;
     color: var(--deepGray);
@@ -249,7 +249,7 @@ h2 {
 .historyBan P {
     font-weight: normal;
     font-family: var(--primaryFont);
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     color: var(--deepGray);
     margin-bottom: 15px;
 }
@@ -264,6 +264,107 @@ h2 {
 .founderCont h2 {
     color: var(--deepOrange);
     text-align: center;
+}
+
+.founder>div {
+    min-height: 300px;
+}
+
+.founder div:first-child {
+    position: relative;
+    text-align: center
+}
+
+.founder div>p {
+    max-width: 300px;
+    letter-spacing: 0px;
+    font-family: var(--primaryFont);
+    font-size: 0.9rem;
+    color: var(--deepGray);
+    margin-right: 20px;
+}
+
+.founder h6 {
+    color: var(--lightPurple);
+    font-weight: bold;
+}
+
+.founder img {
+    display: inline-block;
+    margin-left: 5%;
+    position: relative;
+    z-index: 50;
+}
+
+.founder div:first-child:before {
+    content: " ";
+    top: 0;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 400px;
+    background-color: var(--deepCyan);
+    opacity: 0.34;
+    position: absolute;
+    border-radius: 6px;
+    z-index: -1;
+}
+
+.founder div:first-child::after {
+    content: " ";
+    width: 72%;
+    top: 20px;
+    margin-left: -32%;
+    height: 350px;
+    background-color: var(--footCyanMajor);
+    position: absolute;
+    border-radius: 6px;
+    z-index: 1;
+}
+
+.founderCapt {
+    position: relative;
+    z-index: 30;
+    padding: 15px;
+    max-width: 200px;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.founderCapt h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: var(--primaryFont);
+    color: var(--deepGreen);
+    margin-top: 8px;
+}
+
+.founderCapt h5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: var(--primaryFont);
+    color: var(--bBlack);
+}
+
+/* team styles */
+.teamTop h2 {
+    text-align: center;
+    color: var(--titleBlue);
+}
+
+.teamTopPar {
+    max-width: 700px;
+    margin: auto;
+}
+
+.contributors h2 {
+    text-align: center;
+    color: var(--deepOrange);
+}
+
+.contributorsOut {
+    background: #FBF9F8;
+    padding-bottom: 100px;
 }
 
 @media only screen and (min-width: 768px) {

@@ -107,14 +107,13 @@ function Footer() {
                                     <li><a href="/">Resources</a></li>
                                     <li><a href="/">Newsletter</a></li>
                                     <li><a href="/">Events/ News</a></li>
-                                    <li><a href="/">iACCESS</a></li>
                                 </ul>
                             </Col>
                             <Col xs={6} sm={6} md={3} className="mb-4">
                                 <ul>
-                                    <li className={`p-1 rounded w-1/2 text-center mb-3 ${footStyles.doniAccess}`}><a href="/" >iACCESS</a></li>
-                                    <li className={`p-1 rounded w-1/2 text-center mb-3 ${footStyles.donBtn}`}><a href="/" >DONATE</a></li>
-                                    <li className={`p-1 rounded w-1/2 text-center mb-3 ${footStyles.applyBtn}`}><a href="/">APPLY</a></li>
+                                    <li className={`rounded w-1/2 text-center mb-3 ${footStyles.doniAccess}`}><a href="/" className="p-1">iACCESS</a></li>
+                                    <li className={`rounded w-1/2 text-center mb-3 ${footStyles.donBtn}`}><a href="/" className="p-1">DONATE</a></li>
+                                    <li className={`rounded w-1/2 text-center mb-3 ${footStyles.applyBtn}`}><a href="/" className="p-1">APPLY</a></li>
                                 </ul>
 
                             </Col>

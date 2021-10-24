@@ -1,0 +1,95 @@
+.proTop h2 {
+    color: var(--titleBlue);
+}
+
+.proTop p {
+    color: var(midGray);
+}
+
+.proConts>div {
+    min-height: 840px;
+    padding-top: 105px;
+    padding-bottom: 50px;
+}
+
+.proConts>div:nth-child(even) {
+    background-color: var(--footCyanMajor);
+
+}
+
+.proBtm>div {
+    height: 500px;
+}
+
+.proBtm>div:first-child {
+    background-color: var(--lighterPurple);
+}
+
+.proBtm>div:nth-child(2) {
+    background-color: var(--beigeColor);
+}
+
+.proBtm>div:last-child {
+    background-color: var(--footCyanMajor);
+}
+
+.proConts span {
+    width: 100px;
+    height: 79px;
+}
+
+.proConts h3 {
+    color: var(--titleBlue);
+    font-family: var(--primaryFont);
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: 0px;
+}
+
+.spacer {
+    width: 300px;
+    height: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: var(--titleBlue);
+}
+
+.proContOut {
+    display: grid;
+    grid-template-columns: 80px auto;
+}
+
+.proNums {
+    color: var(--footCyanMajor);
+    font-size: 3.5rem;
+    font-family: var(--primaryFont);
+    font-weight: 900;
+    margin-right: 30px;
+}
+
+.proNumsTwo {
+    color: var(--beigeColor);
+    font-size: 3.5rem;
+    font-family: var(--primaryFont);
+    font-weight: 900;
+    margin-right: 30px;
+}
+
+.proNumsThree {
+    color: var(--lighterPurple);
+    font-size: 3.5rem;
+    font-family: var(--primaryFont);
+    font-weight: 900;
+    margin-right: 40px;
+}
+
+.proHead p {
+    max-width: 600px;
+}
+
+@media only screen and (min-width: 768px) {
+    .proConts>div:first-child {
+        padding-top: 205px;
+
+    }
+}

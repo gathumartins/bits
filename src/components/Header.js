@@ -27,7 +27,7 @@ function Header() {
                 <nav className={`fixed-top z-20 shadow-md px-4 ${myHeader ? `${headerStyles.navi}, ${headerStyles.scroll}` : `${headerStyles.navi}`}`}>
 
                     <Container fluid={`lg ${headerStyles.menuConatiner}`}>
-                        <ul className={`${headerStyles.deskNavbar} d-none d-sm-none d-md-none d-lg-block flex-grow`}>
+                        <ul className={`${headerStyles.deskNavbar} flex-grow`}>
                             <li>
                                 <a href="/" className="py-4">HOME</a>
                             </li>
@@ -40,7 +40,7 @@ function Header() {
                                             <li className="w-screen">
                                                 <ul className={`${headerStyles.menuHeads}`}>
                                                     <li className={headerStyles.megaLinks}><a href="/">HOME</a></li>
-                                                    <li className={headerStyles.megaLinks}><a href="/">WHO WE ARE</a></li>
+                                                    <li className={headerStyles.megaLinks}><a href="/whoweare">WHO WE ARE</a></li>
                                                     <li className={headerStyles.megaLinks}><a href="/">WHAT WE DO</a></li>
                                                     <li className={headerStyles.megaLinks}><a href="/">JOIN US</a></li>
                                                     <li className={headerStyles.megaLinks}><a href="/">OUR COMMUNITY</a></li>
@@ -84,10 +84,11 @@ function Header() {
                                 </div>
                             </li>
                         </ul>
-                        <ul className={`${headerStyles.menuBtns} inline-flex items-center space-x-5`}>
+                        <ul className={`${headerStyles.menuBtns} inline-flex justify-items-end items-center space-x-5 mobileMenu`}>
                             <li className={`px-3 py-1 rounded text-center ${headerStyles.donBtn}`}><a href="/" >DONATE</a></li>
                             <li className={`px-3 py-1 rounded text-center ${headerStyles.appHBtn}`}><a href="/" >APPLY</a></li>
                             <li className={`px-3 py-1 rounded text-center ${headerStyles.srcBtn}`}><a href="/" ><span className="hidden">Search</span><FiSearch className="w-7 h-7" /></a></li>
+                            <li className={`px-3 py-1 rounded text-center ${headerStyles.srcBtn} mobileHam`}><a href="/" ><span className="hidden">Search</span><HiMenuAlt2 className="w-7 h-7" /></a></li>
                         </ul>
                     </Container>
                 </nav>
