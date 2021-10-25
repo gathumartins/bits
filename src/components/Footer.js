@@ -56,11 +56,11 @@ function Footer() {
                                         </p>
                                     </Col>
                                     <Col xs={6} sm={6} md={12} lg={6} xl={6} className="mb-4">
-                                        <h3>Who we are</h3>
+                                        <a href="/whoweare"><h3>Who we are</h3></a>
                                         <ul>
                                             <li><a href="/">Our operating model</a></li>
-                                            <li><a href="/">Our History</a></li>
-                                            <li><a href="/">Our Team</a></li>
+                                            <li><a href="/history">Our History</a></li>
+                                            <li><a href="/team">Our Team</a></li>
                                             <li><a href="/">Our Partners</a></li>
                                         </ul>
                                     </Col>
@@ -69,16 +69,16 @@ function Footer() {
                             <Col xs={12} sm={12} md={6}>
                                 <Row>
                                     <Col xs={12}>
-                                        <h3>What we do</h3>
+                                        <a href="/whatwedo"><h3>What we do</h3></a>
                                         <ul className={footStyles.widefootMenu}>
-                                            <li><a href="/">INTECH Program</a></li>
-                                            <li><a href="/">Impact Programs</a></li>
-                                            <li><a href="/">Acumen</a></li>
-                                            <li><a href="/">#WeAreBits</a></li>
-                                            <li><a href="/">Advocacy for social Equity</a></li>
-                                            <li><a href="/">Impact Services</a></li>
-                                            <li><a href="/">Labour Market Integration</a></li>
-                                            <li><a href="/">Opportunity marching</a></li>
+                                            <li><a href="/programs/dlp">Digital Literacy Program</a></li>
+                                            <li><a href="/programs/yact">YACT</a></li>
+                                            <li><a href="/programs/amp">Advanced Multimedia Program</a></li>
+                                            <li><a href="/programs/wearebits">#WeAreBits</a></li>
+                                            <li><a href="/programs/vit">Video Impact Training</a></li>
+                                            <li><a href="/programs/rhrn">RHRN</a></li>
+                                            <li><a href="/programs/labourmarket">Labour Market Integration</a></li>
+                                            <li><a href="/">Consulting Services</a></li>
                                         </ul>
                                     </Col>
                                 </Row>

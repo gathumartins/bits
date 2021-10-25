@@ -47,7 +47,7 @@ function Slider() {
                                             <li type="button" data-bs-target="Slide 2" aria-label="Slide 2" className={sliderStyles.active}>INNOVATE</li>
                                             <li type="button" data-bs-target="Slide 3" aria-label="Slide 3">TRANSFORM</li>
                                         </ul>
-                                        <p>Quality education is the single greatest pathway to awesome futures. We offer top notch alternative higher education to those who need it.</p>
+                                        <p>We believe in using everyone’s creative genius to disrupt the status quo. We work with our community to create and build solutions for challenges around us.</p>
                                     </div>
                                 </Col>
                             </Row>
@@ -70,7 +70,7 @@ function Slider() {
                                             <li type="button" data-bs-target="Slide 2" aria-label="Slide 2">INNOVATE</li>
                                             <li type="button" data-bs-target="Slide 3" aria-label="Slide 3" className={sliderStyles.active}>TRANSFORM</li>
                                         </ul>
-                                        <p>Quality education is the single greatest pathway to awesome futures. We offer top notch alternative higher education to those who need it.</p>
+                                        <p>Everyone deserves a great future! We enable holistic transformation through impactful programs that create jobs, change lives and grow responsible citizens.</p>
                                     </div>
                                 </Col>
                             </Row>
