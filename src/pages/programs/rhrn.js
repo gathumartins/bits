@@ -19,7 +19,7 @@ function rhrn() {
                                     </Col>
                                     <Col xs={12} sm={12} md={5} className={proStyles.video}>
                                         <figure className="mt-10 md:mt-0 ratio ratio-4x3">
-                                            <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                            <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/omW-BnP-pSA"></iframe>
                                         </figure>
                                     </Col>
                                 </Row>

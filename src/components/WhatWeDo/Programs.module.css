@@ -4,6 +4,8 @@
 
 .proTop p {
     color: var(midGray);
+    max-width: 600px;
+    font-size: 1.3rem;
 }
 
 .proConts>div {
