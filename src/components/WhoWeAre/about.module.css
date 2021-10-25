@@ -71,7 +71,7 @@ h2 {
 }
 
 .misvisInn {
-    height: 300px;
+    min-height: 300px;
     padding: 35px;
     border-radius: 6px;
 }
@@ -155,7 +155,7 @@ h2 {
 }
 
 .opOuter div {
-    width: 200px;
+    max-width: 200px;
     min-height: 150px;
     border-radius: 11px;
     padding: 60px 15px 30px;
@@ -368,7 +368,21 @@ h2 {
 }
 
 @media only screen and (min-width: 768px) {
+
     .coreValue {
         max-width: 250px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .misvisInn h6 {
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .topPage {
+        padding-bottom: 0px;
     }
 }

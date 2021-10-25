@@ -81,6 +81,10 @@
     margin-bottom: 15px;
 }
 
+.footerBtmCont a:hover>h3 {
+    color: var(--deepGreen);
+}
+
 .footerBtmCont p {
     color: var(--white);
     font-family: var(--primaryFont);

@@ -17,28 +17,28 @@ function OpsModel() {
                         <Row>
                             <Col xs={6} sm={6} md={6} lg={3} className={`${opsStyles.opOuter} my-3`}>
                                 <span className={opsStyles.iconsOp}> <b></b></span>
-                                <div>
+                                <div className="mx-auto">
                                     <h4>Our History</h4>
                                     <div className={opsStyles.underOps}></div>
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} md={6} lg={3} className={`${opsStyles.opOuter} my-3`}>
                                 <span className={opsStyles.iconsOp}><b></b></span>
-                                <div>
+                                <div className="mx-auto">
                                     <h4>Our Operating Model</h4>
                                     <div className={opsStyles.underOps}></div>
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} md={6} lg={3} className={`${opsStyles.opOuter} my-3`}>
                                 <span className={opsStyles.iconsOp}><b></b></span>
-                                <div>
+                                <div className="mx-auto">
                                     <h4>Our Team</h4>
                                     <div className={opsStyles.underOps}></div>
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} md={6} lg={3} className={`${opsStyles.opOuter} my-3`}>
                                 <span className={opsStyles.iconsOp}><b></b></span>
-                                <div>
+                                <div className="mx-auto">
                                     <h4>Our Partners</h4>
                                     <div className={opsStyles.underOps}></div>
                                 </div>

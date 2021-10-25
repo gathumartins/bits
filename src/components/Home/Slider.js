@@ -1,13 +1,16 @@
 import React from 'react';
 import Sidebar from './Sidebar';
+import { Helmet } from 'react-helmet';
 import { Carousel, Row, Col, Container } from 'react-bootstrap';
 import * as sliderStyles from './Home.module.css';
 function Slider() {
     return (
         <React.Fragment>
             <div className={`flex top-0 slider`}>
+                <Helmet>
+                </Helmet>
                 <Sidebar />
-                <Carousel className="px-2 sm:px-5 md:p-20 w-screen" controls={false}>
+                <Carousel id="slider" className="px-2 sm:px-5 md:p-20 w-screen relative" controls={false}>
                     <Carousel.Item>
                         <Container className={`flex align-items-center ${sliderStyles.mySlides}`}>
                             <Row className="flex-row-reverse flex-grow">
@@ -77,6 +80,8 @@ function Slider() {
                         </Container>
                     </Carousel.Item>
                 </Carousel>
+                <div className="d-none d-xs-none d-sm-none d-md-none d-lg-block customIndicators">
+                </div>
             </div>
             <div className={`${sliderStyles.footerStrip} clear-both`}></div>
         </React.Fragment>

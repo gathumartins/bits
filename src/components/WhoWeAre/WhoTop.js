@@ -24,12 +24,12 @@ function WhoTop() {
             <section className={whoStyles.misvis}>
                 <Container fluid={`md`}>
                     <div className={`relative`}>
-                        <div className={`grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 absolute w-full ${whoStyles.misvisCont}`}>
+                        <div className={`grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 md:absolute w-full ${whoStyles.misvisCont}`}>
                             <div className={`py-2`}>
                                 <div className={`${whoStyles.misvisInn} ${whoStyles.misvisL}`}>
                                     <h2>Our misson</h2>
                                     <div className="flex">
-                                        <img src="./imgs/mission.svg" className="mr-10" alt="mission vision icons" />
+                                        <img src="./imgs/mission.svg" className="mr-7" alt="mission vision icons" />
                                         <h6>Empowered and transformed youth who positively impact the societies.</h6>
                                     </div>
                                 </div>
@@ -38,7 +38,7 @@ function WhoTop() {
                                 <div className={`${whoStyles.misvisInn} ${whoStyles.misvisR}`}>
                                     <h2>Our vision</h2>
                                     <div className="flex">
-                                        <img src="./imgs/vision.svg" className="mr-10" alt="mission vision icons" />
+                                        <img src="./imgs/vision.svg" className="sm:mr-5 md:mr-10" alt="mission vision icons" />
                                         <h6>Harnessing ICT to place youth at the center of societal engagements and solutions</h6>
                                     </div>
                                 </div>
