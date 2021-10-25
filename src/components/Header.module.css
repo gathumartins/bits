@@ -15,8 +15,17 @@
 
 .navBrand {
     width: 100px;
-    padding: 20px;
+    padding: 20px 10px;
     border-radius: 0px 0px 14px 0px;
+}
+
+.logoInn {
+    min-width: 70px;
+    min-height: 90px;
+    background-size: contain;
+    background-image: url('../../static/imgs/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .scroll {
@@ -42,7 +51,7 @@
 /* Links inside the navbar */
 .deskNavbar a {
     float: left;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: var(--colorBlue);
     text-align: center;
     padding: 0 16px;
@@ -59,7 +68,7 @@
 
 /* Dropdown button */
 .deskDropdown .dropbtn {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     border: none;
     outline: none;
     color: var(--colorBlue);
@@ -249,5 +258,14 @@
 
     .navi {
         background-color: var(--white) !important;
+    }
+
+    .logoInn {
+        min-width: 50px;
+        min-height: 50px;
+        background-size: contain;
+        background-image: url('../../static/imgs/logo.png');
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }

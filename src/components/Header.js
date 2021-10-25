@@ -22,7 +22,7 @@ function Header() {
         <section className={`navbar fixed-top ${headerStyles.myHeader}`}>
             <header className="flex">
                 <div className={`${headerStyles.navBrand} bg-white absolute shadow-sm z-50`}>
-                    <img src="./imgs/logo.png" alt="Nairobits Top Logo" fluid="true" />
+                    <div className={headerStyles.logoInn}></div>
                 </div>
                 <nav className={`fixed-top z-20 shadow-md px-4 ${myHeader ? `${headerStyles.navi}, ${headerStyles.scroll}` : `${headerStyles.navi}`}`}>
 

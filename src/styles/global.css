@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 @font-face {
     font-family: 'Tahoma', sans-serif;
@@ -46,7 +46,7 @@
     --deepBlue: #0C0DF5;
     --footCyanMajor: #DAFFFA;
     --footBlueDark: #040434;
-    --unnamed-color-a2faf3: #A2FAF3;
+    --stripecyan: #A2FAF3;
     --unnamed-color-88f7e9: #88F7E9;
     --deepCyan: #25F5E9;
     --unnamed-color-e5e5e5: #E5E5E5;
@@ -59,7 +59,8 @@
     --deepOrange: #F7A31A;
 
     /* fonts */
-    --primaryFont: 'Sans Pro', sans-serif;
+    --primaryFont: 'Source Sans Pro',
+        sans-serif;
     --secondaryFont: 'Tahoma', sans-serif;
     --secondaryFontB: 'Tahoma Bold',
         sans-serif;
@@ -113,19 +114,19 @@
 }
 
 .commonSmallBg {
-    min-height: 400px;
+    min-height: 300px;
     background: url('../../static/imgs/innersmallbg.svg');
     background-repeat: no-repeat;
     background-size: 100% 400px;
     background-position: top center;
 }
 
-.commonSmallBg {
+/* .commonSmallBg {
     min-height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
+} */
 
 .commonHeader {
     padding-top: 120px;
@@ -172,6 +173,99 @@
     color: var(--deepGreen);
 }
 
+/* programs */
+.programCont {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 700px;
+}
+
+.programSCont {
+    padding-bottom: 50px;
+    min-height: 900px;
+}
+
+.programBCont {
+    padding-bottom: 50px;
+    min-height: 1050px;
+}
+
+.stripeTop {
+    position: relative;
+}
+
+.stripeTop:before {
+    content: "";
+    top: 0;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: var(--deepOrange);
+}
+
+.stripeTop:after {
+    content: "";
+    top: -15px;
+    left: 15px;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 24px solid var(--deepGreen);
+}
+
+.programStripe {
+    margin-top: 30px;
+    margin-left: 12px;
+    min-height: 100%;
+    width: 4px;
+    background: -webkit-gradient(linear, to bottom, var(--lighterPurple) 33%, var(--siteOrange) 33% 66%, var(--stripecyan) 66% 100%);
+    background: -webkit-linear-gradient(to bottom, var(--lighterPurple) 33%, var(--siteOrange) 33% 66%, var(--stripecyan) 66% 100%);
+    background: -moz-linear-gradient(to bottom, var(--lighterPurple) 33%, var(--siteOrange) 33% 66%, var(--stripecyan) 66% 100%);
+    background: linear-gradient(to bottom, var(--lighterPurple) 33%, var(--siteOrange) 33% 66%, var(--stripecyan) 66% 100%);
+}
+
+.programsWWW {
+    margin-top: 40px;
+    min-height: 200px;
+}
+
+.programsWWW h3 {
+    font-size: 2rem;
+    font-family: var(--primaryFont);
+    font-weight: 900;
+    color: var(--bBlack);
+    margin-bottom: 10px;
+}
+
+.programsWWW p {
+    font-size: 1.1rem;
+    font-family: var(--primaryFont);
+    color: var(--midGray);
+    text-align: justify;
+}
+
+.programsWWW ul {
+    margin-left: 20px;
+}
+
+.programsWWW ul li {
+    font-size: 1.1rem;
+    font-family: var(--primaryFont);
+    color: var(--midGray);
+    list-style: numeric;
+    margin-bottom: 15px;
+}
+
+.programsPartners li {
+    max-width: 150px;
+    min-height: 150px;
+    padding: 10px;
+    border: 1px solid #C5E3DF;
+    border-radius: 18px;
+}
 
 @media only screen and (min-width: 1166px) {
     .mobileHam {
@@ -187,6 +281,8 @@
     } */
 }
 
+
+
 @media only screen and (min-width: 768px) {
 
     .container,
@@ -194,5 +290,79 @@
     .container-md,
     .container-sm {
         max-width: 85%;
+    }
+
+    .programsWWW ul {
+        max-width: 95%;
+    }
+
+    .programsWWW p {
+        max-width: 90%;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+
+    .programCont {
+        min-height: 900px;
+    }
+
+    .programSCont {
+        padding-bottom: 50px;
+        min-height: 1100px;
+    }
+
+    .programBCont {
+        padding-bottom: 50px;
+        min-height: 1250px;
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:991px) {
+    .programCont {
+        min-height: 1000px;
+    }
+
+    .programSCont {
+        padding-bottom: 50px;
+        min-height: 1200px;
+    }
+
+    .programBCont {
+        padding-bottom: 50px;
+        min-height: 1350px;
+    }
+}
+
+@media only screen and (min-width:831px) and (max-width:899px) {
+    .programCont {
+        min-height: 1050px;
+    }
+
+    .programSCont {
+        padding-bottom: 50px;
+        min-height: 1250px;
+    }
+
+    .programBCont {
+        padding-bottom: 50px;
+        min-height: 1400px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:830px) {
+
+    .programCont {
+        min-height: 1150px;
+    }
+
+    .programSCont {
+        padding-bottom: 50px;
+        min-height: 1250px;
+    }
+
+    .programBCont {
+        padding-bottom: 50px;
+        min-height: 1400px;
     }
 }

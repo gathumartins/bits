@@ -144,9 +144,83 @@
     bottom: 0;
 }
 
+/* single Program */
+.video figure {
+    background-color: var(--footCyanMajor);
+    padding: 15px;
+    position: relative;
+}
+
+.video iframe {
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 11px;
+}
+
+.sideBar h4 {
+    font-family: var(--primaryFont);
+    color: var(--deepGreen);
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+/* Suppor Componennt styles */
+.supportHeading h2 {
+    font-family: var(--primaryFont);
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: 0px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: var(--deepGreen);
+
+}
+
+/* .supportOut {
+    border-top: thin solid var(--deepGreen);
+} */
+
+.supportCont {
+    position: relative;
+    max-width: 900px;
+    min-height: 300px;
+    background-color: var(--lightPurple);
+    border-radius: 12px;
+    margin: 30px auto;
+}
+
+.programContInn {
+    min-height: 1200px;
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    .programContInn {
+        min-height: 1000px;
+    }
+}
+
 @media only screen and (min-width: 768px) {
+    .programContInn {
+        position: absolute;
+        margin-top: -170px;
+    }
+
     .proConts>div:first-child {
         padding-top: 205px;
 
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    .programContInn {
+        min-height: 1000px;
+        margin-top: -130px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .programContInn {
+        min-height: 1200px;
+        margin-top: -130px;
     }
 }
