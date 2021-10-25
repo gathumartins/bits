@@ -373,3 +373,15 @@
         min-height: 1400px;
     }
 }
+
+@media only screen and (max-width: 767px) {
+    .commonMidBg {
+        background-size: 100% 450px;
+        background-position: top center;
+    }
+
+    .commonSmallBg {
+        background-size: 100% 350px;
+        background-position: top center;
+    }
+}

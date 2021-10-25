@@ -224,3 +224,9 @@
         margin-top: -130px;
     }
 }
+
+@media only screen and (max-width:767px) {
+    .proConts>div {
+        padding-top: 50px;
+    }
+}
