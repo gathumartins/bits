@@ -140,10 +140,12 @@
     min-height: 100px;
     width: 100%;
     border-radius: 11px;
-    padding: 25px 20px;
-    background: #B16AAB46;
     position: absolute;
     bottom: 0;
+}
+
+.progsBtm img {
+    border-radius: 11px;
 }
 
 /* single Program */
@@ -193,6 +195,25 @@
 
 .programContInn {
     min-height: 1200px;
+}
+
+/* impact */
+.impact {
+    font-family: var(--primaryFont);
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: 0px;
+    margin-bottom: 25px;
+    color: var(--deepOrange);
+    margin-bottom: 46px;
+}
+
+.impactCont {
+    padding-bottom: 150px;
+}
+
+.impactCont>div {
+    min-height: 300px;
 }
 
 @media only screen and (min-width:992px) and (max-width:1200px) {

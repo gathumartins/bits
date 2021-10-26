@@ -61,7 +61,7 @@ function Footer() {
                                             <li><a href="/">Our operating model</a></li>
                                             <li><a href="/history">Our History</a></li>
                                             <li><a href="/team">Our Team</a></li>
-                                            <li><a href="/">Our Partners</a></li>
+                                            <li><a href="/partners">Our Partners</a></li>
                                         </ul>
                                     </Col>
                                 </Row>
@@ -78,7 +78,7 @@ function Footer() {
                                             <li><a href="/programs/vit">Video Impact Training</a></li>
                                             <li><a href="/programs/rhrn">RHRN</a></li>
                                             <li><a href="/programs/labourmarket">Labour Market Integration</a></li>
-                                            <li><a href="/">Consulting Services</a></li>
+                                            <li><a href="/consultancy">Consulting Services</a></li>
                                         </ul>
                                     </Col>
                                 </Row>
@@ -96,15 +96,15 @@ function Footer() {
                             <Col xs={6} sm={6} md={3} className="mb-4">
                                 <h3>Join us</h3>
                                 <ul>
-                                    <li><a href="/">Partner</a></li>
-                                    <li><a href="/">Volunteer</a></li>
-                                    <li><a href="/">Careers</a></li>
+                                    <li><a href="/partners">Partner</a></li>
+                                    <li><a href="/volunteer">Volunteer</a></li>
+                                    <li><a href="/careers">Careers</a></li>
                                 </ul>
                             </Col>
                             <Col xs={6} sm={6} md={3} className="mb-4">
                                 <h3>Quick links</h3>
                                 <ul>
-                                    <li><a href="/">Resources</a></li>
+                                    <li><a href="/resources">Resources</a></li>
                                     <li><a href="/">Newsletter</a></li>
                                     <li><a href="/">Events/ News</a></li>
                                 </ul>
@@ -112,8 +112,8 @@ function Footer() {
                             <Col xs={6} sm={6} md={3} className="mb-4">
                                 <ul>
                                     <li className={`rounded w-1/2 text-center mb-3 ${footStyles.doniAccess}`}><a href="/" className="p-1">iACCESS</a></li>
-                                    <li className={`rounded w-1/2 text-center mb-3 ${footStyles.donBtn}`}><a href="/" className="p-1">DONATE</a></li>
-                                    <li className={`rounded w-1/2 text-center mb-3 ${footStyles.applyBtn}`}><a href="/" className="p-1">APPLY</a></li>
+                                    <li className={`rounded w-1/2 text-center mb-3 ${footStyles.donBtn}`}><a href="/donate" className="p-1">DONATE</a></li>
+                                    <li className={`rounded w-1/2 text-center mb-3 ${footStyles.applyBtn}`}><a href="/apply" className="p-1">APPLY</a></li>
                                 </ul>
 
                             </Col>
@@ -126,7 +126,7 @@ function Footer() {
                                 </ul>
                             </Col>
                             <Col xs={6} sm={6} md={3}>
-                                <ul className="mt-5">
+                                <ul className="mt-4">
                                     <li><a href="/">Privacy policy</a></li>
                                     <li><a href="/">Our Cookie policy</a></li>
                                 </ul>

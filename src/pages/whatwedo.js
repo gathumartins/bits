@@ -40,35 +40,45 @@ function programs() {
                                                     <h5>Digital Literacy Program</h5>
                                                     <p>A 12-week course for novice youth</p>
                                                 </div>
-                                                <div className={proStyles.progsBtm}></div>
+                                                <div className={proStyles.progsBtm}>
+                                                    <img src="../imgs/dlp.png" fluid="true" alt="NairoBits Digital Literacy Program" />
+                                                </div>
                                             </div>
                                             <div>
                                                 <div className={proStyles.progsTop}>
                                                     <h5>Advanced Multimedia Program</h5>
                                                     <p>A 9 month apprenticeship diploma specialization in design or coding</p>
                                                 </div>
-                                                <div className={proStyles.progsBtm}></div>
+                                                <div className={proStyles.progsBtm}>
+                                                    <img src="../imgs/amp.png" fluid="true" alt="NairoBits Advanced Multimedia Program" />
+                                                </div>
                                             </div>
                                             <div>
                                                 <div className={proStyles.progsTop}>
                                                     <h5>Video Impact Training</h5>
                                                     <p>1 Week training that produces mobile storytellers</p>
                                                 </div>
-                                                <div className={proStyles.progsBtm}></div>
+                                                <div className={proStyles.progsBtm}>
+                                                    <img src="../imgs/vit.png" fluid="true" alt="NairoBits Video impact training Program" />
+                                                </div>
                                             </div>
                                             <div>
                                                 <div className={proStyles.progsTop}>
                                                     <h5>Core Acumen</h5>
                                                     <p>Complimentary programs that promote responsible living</p>
                                                 </div>
-                                                <div className={proStyles.progsBtm}></div>
+                                                <div className={proStyles.progsBtm}>
+                                                    <img src="../imgs/coreacumen.png" fluid="true" alt="NairoBits Core Acumen Program" />
+                                                </div>
                                             </div>
                                             <div>
                                                 <div className={proStyles.progsTop}>
                                                     <h5>Labour Market Integration</h5>
                                                     <p>Facilitating entry to the labour market through volunteerships, internships and corporate learning programs</p>
                                                 </div>
-                                                <div className={proStyles.progsBtm}></div>
+                                                <div className={proStyles.progsBtm}>
+                                                    <img src="../imgs/lmi.png" fluid="true" alt="NairoBits labour market integration Program" />
+                                                </div>
                                             </div>
                                         </div>
                                     </Row>
@@ -91,21 +101,27 @@ function programs() {
                                                     <h5>Entrepreneurship & Business Coaching</h5>
                                                     <p>Preparing entrepreneurially gifted students for careers in business</p>
                                                 </div>
-                                                <div className={proStyles.progsBtm}></div>
+                                                <div className={proStyles.progsBtm}>
+                                                    <img src="../imgs/coaching.png" fluid="true" alt="NairoBits enterprenuership and coaching Program" />
+                                                </div>
                                             </div>
                                             <div>
                                                 <div className={proStyles.progsTop}>
                                                     <h5>Right Here Right Now 2</h5>
                                                     <p>A 5 year consortium for the nationwide SRHR change</p>
                                                 </div>
-                                                <div className={proStyles.progsBtm}></div>
+                                                <div className={proStyles.progsBtm}>
+                                                    <img src="../imgs/rhrn2.png" fluid="true" alt="NairoBits right here right now two Program" />
+                                                </div>
                                             </div>
                                             <div>
                                                 <div className={proStyles.progsTop}>
                                                     <h5>Youth in Action</h5>
                                                     <p>Empowering youth to gain skills, voice, and participate in youth-identified policy priorities in Kenya regarding sexual and reproductive health and rights</p>
                                                 </div>
-                                                <div className={proStyles.progsBtm}></div>
+                                                <div className={proStyles.progsBtm}>
+                                                    <img src="../imgs/youthinaction.png" fluid="true" alt="NairoBits youth in action Program" />
+                                                </div>
                                             </div>
                                         </div>
                                     </Row>
@@ -128,24 +144,28 @@ function programs() {
                                                     <h5>#WeAreBits</h5>
                                                     <p>Preparing entrepreneurially gifted students for careers in business</p>
                                                 </div>
-                                                <div className={proStyles.progsBtm}></div>
+                                                <div className={proStyles.progsBtm}>
+                                                    <img src="../imgs/wearebits.png" fluid="true" alt="NairoBits #wearebits Program" />
+                                                </div>
                                             </div>
                                             <div>
                                                 <div className={proStyles.progsTop}>
                                                     <h5>S-Bize</h5>
                                                     <p>A 5 year consortium for the nationwide SRHR change</p>
                                                 </div>
-                                                <div className={proStyles.progsBtm}></div>
+                                                <div className={proStyles.progsBtm}>
+                                                    <img src="../imgs/sbize.png" fluid="true" alt="NairoBits s-bize Program" />
+                                                </div>
                                             </div>
                                         </div>
                                     </Row>
                                 </Container>
                             </div>
                         </section>
-                        <section className={`${proStyles.proBtm} grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3`}>
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                        <section className={`${proStyles.proBtm} grid grid-cols-3`}>
+                            <img src="./imgs/probtmone.png" fluid="true" alt="Nairobits programs bottom" />
+                            <img src="./imgs/probtmtwo.png" fluid="true" alt="Nairobits programs bottom" />
+                            <img src="./imgs/probtmthree.png" fluid="true" alt="Nairobits programs bottom" />
                         </section>
                     </article>
                 </div>

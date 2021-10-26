@@ -42,7 +42,7 @@
     --deepGreen: #22A9A1;
     --lighterPurple: #D9DBFA;
     --midPurple: #8E94FA;
-    --unnamed-color-434cf5: #434CF5;
+    --midBlue: #434CF5;
     --deepBlue: #0C0DF5;
     --footCyanMajor: #DAFFFA;
     --footBlueDark: #040434;
@@ -291,6 +291,12 @@
 
 
 @media only screen and (min-width: 768px) {
+    .careerImg {
+        max-width: 450px;
+        display: inline-block;
+        float: right;
+        top: 100px;
+    }
 
     .container,
     .container-lg,
