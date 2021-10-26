@@ -30,10 +30,10 @@ function Footer() {
                             <h2>Follow us</h2>
                             <p>Always stay in the know</p>
                             <ul className={`${footStyles.socialLinks} flex justify-between`}>
-                                <li className="cursor-pointer"><a href="/"><span className="hidden">Linkedin</span><FaLinkedin className="h-8 w-8" /></a></li>
-                                <li className="cursor-pointer"><a href="/"><span className="hidden">Facebook</span><FaFacebookSquare className="h-8 w-8" /></a></li>
-                                <li className="cursor-pointer"><a href="/"><span className="hidden">Twitter</span><FaTwitter className="h-8 w-8" /></a></li>
-                                <li className="cursor-pointer"><a href="/"><span className="hidden">Instagram</span><FaInstagramSquare className="h-8 w-8" /></a></li>
+                                <li className="cursor-pointer"><a href="https://www.linkedin.com/company/nairobits" target="_blank" rel="noreferrer"><span className="hidden">Linkedin</span><FaLinkedin className="h-8 w-8" /></a></li>
+                                <li className="cursor-pointer"><a href="https://www.facebook.com/NairobitsTrust?_rdc=1&_rdr" target="_blank" rel="noreferrer"><span className="hidden">Facebook</span><FaFacebookSquare className="h-8 w-8" /></a></li>
+                                <li className="cursor-pointer"><a href="https://twitter.com/Nairobits" target="_blank" rel="noreferrer"><span className="hidden">Twitter</span><FaTwitter className="h-8 w-8" /></a></li>
+                                <li className="cursor-pointer"><a href="https://www.instagram.com/nairobitstrust/?hl=en" target="_blank" rel="noreferrer"><span className="hidden">Instagram</span><FaInstagramSquare className="h-8 w-8" /></a></li>
                             </ul>
                         </Col>
                     </Row>
