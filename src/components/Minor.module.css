@@ -7,6 +7,14 @@
     padding-top: 60px;
 }
 
+.conCont h2 {
+    color: var(--titleBlue)
+}
+
+.conCont p {
+    color: var(--midGray)
+}
+
 /* model styles */
 .topOpsHeading h2 {
     color: var(--titleBlue);
@@ -92,7 +100,7 @@
 
 .resContInn {
     position: relative;
-    min-height: 250px;
+    min-height: 200px;
     background: #C4E3DF;
     border-radius: 0px 0px 11px 11px;
 }

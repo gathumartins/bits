@@ -49,8 +49,8 @@
     --stripecyan: #A2FAF3;
     --unnamed-color-88f7e9: #88F7E9;
     --deepCyan: #25F5E9;
-    --unnamed-color-e5e5e5: #E5E5E5;
-    --unnamed-color-919395: #919395;
+    --lightGray: #E5E5E5;
+    --lighterGray: #919395;
     --deepGray: #444445;
     --bBlack: #000101;
     --beigeColor: #FFEBCD;
@@ -216,6 +216,15 @@
     border-top: 24px solid var(--deepGreen);
 }
 
+.consultancyStripe {
+    height: 10px;
+    width: 100%;
+    background: -webkit-gradient(linear, to right, var(--deepOrange) 20%, var(--deepCyan) 20% 50%, var(--deepBlue) 50% 80%, var(--deepGreen) 80%);
+    background: -webkit-linear-gradient(to right, var(--deepOrange) 20%, var(--deepCyan) 20% 50%, var(--deepBlue) 50% 80%, var(--deepGreen) 80%);
+    background: -moz-linear-gradient(to right, var(--deepOrange) 20%, var(--deepCyan) 20% 50%, var(--deepBlue) 50% 80%, var(--deepGreen) 80%);
+    background: linear-gradient(to right, var(--deepOrange) 20%, var(--deepCyan) 20% 50%, var(--deepBlue) 50% 80%, var(--deepGreen) 80%);
+}
+
 .programStripe {
     margin-top: 30px;
     margin-left: 12px;
@@ -272,6 +281,39 @@
     min-height: 100vh;
     position: absolute;
     right: 0;
+}
+
+.bannerImage {
+    position: relative;
+    z-index: 10;
+}
+
+.bannerImage img {
+    position: relative;
+    z-index: 10;
+    top: 0px;
+}
+
+.bannerImage:before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: -70px;
+    top: -100px;
+    border-radius: 50%;
+    background-color: var(--beigeColor);
+    z-index: 1;
+}
+
+@media only screen and (min-width:1679px) {
+    .commonMidBg {
+        background-size: contain;
+    }
+
+    .commonSmallBg {
+        background-size: contain;
+    }
 }
 
 @media only screen and (min-width: 1166px) {

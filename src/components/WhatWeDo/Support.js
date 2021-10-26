@@ -11,7 +11,9 @@ function Support() {
                     <Col xs={12} className={`${supportStyles.supportHeading}`}>
                         <h2>Support</h2>
                     </Col>
-                    <div className={supportStyles.supportCont}></div>
+                    <figure className={supportStyles.supportCont}>
+                        <img src="../imgs/supports.svg" fluid="true" alt="NairoBits Support animation" />
+                    </figure>
                 </Row>
             </Container>
         </section>

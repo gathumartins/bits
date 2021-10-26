@@ -20,6 +20,7 @@ function resources() {
                                 <div className={`grid grid-cols-1 sm:grid-cols-2 gap-5 ${operateStyles.resCont}`}>
                                     <div>
                                         <div className={operateStyles.resContInn}>
+                                            <img src="./imgs/sp.png" fluid="true" alt="" />
                                             <div className={operateStyles.resContInnBtm}>
                                                 <h1>Strategic Plan</h1>
                                             </div>
@@ -27,6 +28,7 @@ function resources() {
                                     </div>
                                     <div>
                                         <div className={operateStyles.resContInn}>
+                                            <img src="./imgs/profile.png" fluid="true" alt="" />
                                             <div className={operateStyles.resContInnBtm}>
                                                 <h1>NairoBits Profile</h1>
                                             </div>
@@ -34,6 +36,7 @@ function resources() {
                                     </div>
                                     <div>
                                         <div className={operateStyles.resContInn}>
+                                            <img src="./imgs/impact2020.png" fluid="true" alt="" />
                                             <div className={operateStyles.resContInnBtm}>
                                                 <h1>Impact Report 2020</h1>
                                             </div>
@@ -41,6 +44,7 @@ function resources() {
                                     </div>
                                     <div>
                                         <div className={operateStyles.resContInn}>
+                                            <img src="./imgs/review2020.png" fluid="true" alt="" />
                                             <div className={operateStyles.resContInnBtm}>
                                                 <h1>2020 Year in Review</h1>
                                             </div>
@@ -48,6 +52,7 @@ function resources() {
                                     </div>
                                     <div>
                                         <div className={operateStyles.resContInn}>
+                                            <img src="./imgs/impact2019.png" fluid="true" alt="" />
                                             <div className={operateStyles.resContInnBtm}>
                                                 <h1>Impact Report 2019</h1>
                                             </div>

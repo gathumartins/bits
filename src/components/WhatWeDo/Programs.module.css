@@ -161,6 +161,7 @@
 }
 
 .sideBar h4 {
+    margin-top: 30px;
     font-family: var(--primaryFont);
     color: var(--deepGreen);
     font-weight: 900;
@@ -188,9 +189,11 @@
     position: relative;
     max-width: 900px;
     min-height: 300px;
-    background-color: var(--lightPurple);
-    border-radius: 12px;
     margin: 30px auto;
+}
+
+.supportCont img {
+    border-radius: 12px;
 }
 
 .programContInn {
@@ -214,6 +217,45 @@
 
 .impactCont>div {
     min-height: 300px;
+    padding: 15px;
+}
+
+/* apply */
+.appCont {
+    min-height: 600px;
+    padding-bottom: 50px;
+}
+
+.appCont>div {
+    min-height: 300px;
+    border-radius: 11px;
+    background-color: var(--lightGray)
+}
+
+.applyOut>div:last-child {
+    padding: 20px 15px;
+}
+
+.applyInn h3 {
+    font: normal normal bold 26px var(--primaryFont);
+    letter-spacing: 0px;
+    color: var(--deepGray);
+    max-width: 300px;
+}
+
+.applyInn h4 {
+    margin-top: 15px;
+    font: normal normal normal 1rem var(--primaryFont);
+    letter-spacing: 0px;
+    color: var(--lighterGray);
+}
+
+.dateUnder {
+    max-width: 70px;
+    height: 4px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    background-color: var(--lighterGray)
 }
 
 @media only screen and (min-width:992px) and (max-width:1200px) {
