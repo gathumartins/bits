@@ -51,7 +51,6 @@ h2 {
 }
 
 .banRight {
-    background-color: var(--white);
     position: relative;
     z-index: 2;
     height: 350px;
@@ -271,6 +270,28 @@ h2 {
     font-size: 0.9rem;
     color: var(--deepGray);
     margin-bottom: 15px;
+}
+
+.histImg {
+    position: relative;
+    z-index: 10;
+}
+
+.histImg img {
+    position: relative;
+    z-index: 10;
+}
+
+.histImg:before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right: 30px;
+    top: -20px;
+    border-radius: 50%;
+    background-color: var(--beigeColor);
+    z-index: 1;
 }
 
 .founderCont {

@@ -229,7 +229,7 @@
     }
 
     .proConts>div:first-child {
-        padding-top: 205px;
+        padding-top: 0px;
 
     }
 }

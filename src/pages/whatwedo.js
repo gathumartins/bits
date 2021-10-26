@@ -16,7 +16,9 @@ function programs() {
                                     <p>NairoBits is governed by a Board of Trustees mandated to with ensuring the organization’s strategic guidance and operational goodwill for all the difference we want to make in the world</p>
                                 </Col>
                                 <Col xs={12} sm={12} md={6}>
-                                    <figure></figure>
+                                    <figure className="topsvg">
+                                        <img src="./imgs/topsvg.svg" fluid="true" alt="Nairobits programs top svg" />
+                                    </figure>
                                 </Col>
                             </Row>
                         </Container>

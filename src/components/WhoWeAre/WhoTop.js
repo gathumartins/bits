@@ -16,7 +16,9 @@ function WhoTop() {
                             <p>These strategic approaches are the backbone of our programs ranging across technical skills on digital literacy, acumen building and creating wholesome subsector change through advocacy on the digital divide across marginalized groups.</p>
                         </Col>
                         <Col xs={12} sm={12} md={6} className={`py-20 ${whoStyles.banRightOut}`}>
-                            <div className={`${whoStyles.banRight} z-50`}></div>
+                            <figure >
+                                <img src="./imgs/amp.png" fluid="true" alt="Nairobits about us banner" className={`${whoStyles.banRight} z-50`} />
+                            </figure>
                         </Col>
                     </Row>
                 </Container>

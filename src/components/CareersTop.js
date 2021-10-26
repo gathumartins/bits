@@ -17,7 +17,7 @@ function CareersTop() {
                             <h4>Meet the Team</h4>
                             <p>We offer careers, not just jobs, and take pride in going the extra mile to serve our people in need. Joining NairoBits means sharing in our mission and living by our core values.</p>
                         </Col>
-                        <Col xs={12} sm={12} md={6} lg={6}>
+                        <Col xs={12} sm={12} md={6} lg={6} className={histStyles.histImg}>
                             <img src="./imgs/careers.png" fluid="true" alt="nairobits careers" className="careerImg" />
                         </Col>
                     </Row>
