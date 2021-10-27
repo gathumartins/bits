@@ -408,6 +408,11 @@
     margin-bottom: 20px;
 }
 
+.offcanvas-header .btn-close {
+    margin-right: 1rem;
+    color: var(--deepOrange)
+}
+
 @media only screen and (min-width:1679px) {
     .commonMidBg {
         background-size: contain;
@@ -529,6 +534,10 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .mobileSearch {
+        display: none;
+    }
+
     .commonMidBg {
         background-size: 100% 450px;
         background-position: top center;

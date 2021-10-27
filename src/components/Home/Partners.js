@@ -4,7 +4,7 @@ import * as partnerStyles from './Home.module.css';
 
 function Partners() {
     return (
-        <section className={`${partnerStyles.partners}`}>
+        <section className={`${partnerStyles.partners} ${partnerStyles.partnersS}`}>
             <Container className={partnerStyles.partnerCont}>
                 <Row className={`d-flex align-items-center`}>
                     <Col xs={12} className={`text-center ${partnerStyles.Headings}`}>

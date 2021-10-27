@@ -215,8 +215,6 @@
 }
 
 .donateInn {
-    min-height: 315px;
-    padding: 60px 20px;
     border-radius: 11px;
 }
 
@@ -239,4 +237,67 @@
 
 .donateOut div:last-child>.donateInn {
     background-color: var(--bBlack);
+}
+
+.donate {
+    min-height: 250px;
+    font-weight: 900;
+    font-size: 1.3rem;
+    font-family: var(--primaryFont);
+}
+
+.kingbadu {
+    background: var(--unnamed-color-fab630) 0% 0% no-repeat padding-box;
+    background: #FAB630 0% 0% no-repeat padding-box;
+    border-radius: 11px;
+    width: 98%;
+    border: none !important;
+}
+
+.taxico img {
+    width: 100%;
+    max-width: 80px;
+}
+
+
+.icos {
+    margin-top: 2em
+}
+
+.donatelogos {
+    max-width: 160px;
+}
+
+.paypal {
+    background: var(--unnamed-color-88f7e9) 0% 0% no-repeat padding-box;
+    background: #88F7E9 0% 0% no-repeat padding-box;
+    border-radius: 11px;
+    width: 98%;
+    border: none !important;
+}
+
+.mpesa {
+    background: var(--unnamed-color-434cf5) 0% 0% no-repeat padding-box;
+    background: #434CF5 0% 0% no-repeat padding-box;
+    border-radius: 11px;
+    width: 98%;
+    border: none !important;
+    color: #fff;
+}
+
+.crypto {
+    background: #313131 0% 0% no-repeat padding-box;
+    border-radius: 11px;
+    width: 98%;
+    border: none !important;
+    color: #fff;
+}
+
+.cryptologos img {
+    width: 100%;
+    max-width: 24px
+}
+
+.inputsft {
+    font-size: 12px;
 }
