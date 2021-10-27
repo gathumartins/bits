@@ -58,7 +58,7 @@ function Footer() {
                                     <Col xs={6} sm={6} md={12} lg={6} xl={6} className="mb-4">
                                         <a href="/whoweare"><h3>Who we are</h3></a>
                                         <ul>
-                                            <li><a href="/">Our operating model</a></li>
+                                            <li><a href="/operatingmodel">Our operating model</a></li>
                                             <li><a href="/history">Our History</a></li>
                                             <li><a href="/team">Our Team</a></li>
                                             <li><a href="/partners">Our Partners</a></li>
@@ -88,9 +88,9 @@ function Footer() {
                             <Col xs={6} sm={6} md={3} className="mb-4">
                                 <h3>Our community</h3>
                                 <ul>
-                                    <li><a href="/">Alumni</a></li>
-                                    <li><a href="/">Students</a></li>
-                                    <li><a href="/">Peer educators</a></li>
+                                    <li><a href="/alumni">Alumni</a></li>
+                                    <li><a href="/students">Students</a></li>
+                                    <li><a href="/programs/sbiz">S-Bize</a></li>
                                 </ul>
                             </Col>
                             <Col xs={6} sm={6} md={3} className="mb-4">
@@ -105,7 +105,7 @@ function Footer() {
                                 <h3>Quick links</h3>
                                 <ul>
                                     <li><a href="/resources">Resources</a></li>
-                                    <li><a href="/">Newsletter</a></li>
+                                    <li><a href="https://mailchi.mp/nairobits/the-nairobits-way-still-rising?e=[UNIQID]" target="_blank" rel="noreferrer">Newsletter</a></li>
                                     <li><a href="/news">Events/ News</a></li>
                                 </ul>
                             </Col>
@@ -130,7 +130,7 @@ function Footer() {
                                     <li><a href="/privacy">Privacy policy</a></li>
                                 </ul>
                             </Col>
-                            <Col xs={12} sm={12} md={6} className="mt-5 sm:text-center md:text-left">
+                            <Col xs={12} sm={12} md={6} className="mt-4 sm:text-center md:text-left">
                                 <p>&copy; {year.getFullYear()} NairoBits Trust. All rights reserved.</p>
                             </Col>
                         </Row>

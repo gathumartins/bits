@@ -407,6 +407,58 @@ h2 {
     padding-bottom: 100px;
 }
 
+/* students */
+.studentBtm {
+    background: rgba(167, 119, 94, 0.04)
+}
+
+.studentBtm section {
+    max-width: 900px;
+    margin: auto;
+}
+
+.studentBtm h4 {
+    font: normal normal 600 1.4rem var(--primaryFont);
+    color: var(--titleBlue);
+    margin-bottom: 15px;
+}
+
+.studentBtm P {
+    font: normal normal normal 1.1rem var(--primaryFont);
+    color: var(--deepGray);
+}
+
+/* alumni  */
+.alumniMid h3 {
+    text-align: center;
+    font: normal normal 600 2.5rem var(--primaryFont);
+    color: var(--deepGreen);
+    margin-bottom: 50px;
+}
+
+.alumniMidInn>div {
+    min-height: 300px;
+    border-radius: 11px;
+    padding: 15px;
+    font: normal normal bold 1.6rem var(--primaryFont);
+}
+
+.alumniMidInn>div:first-child {
+    background-color: var(--colorBlue);
+}
+
+.alumniMidInn>div:nth-child(2) {
+    background-color: var(--deepOrange);
+}
+
+.alumniMidInn>div:nth-child(3) {
+    background-color: var(--deepGreen);
+}
+
+.alumniMidInn>div:last-child {
+    background-color: var(--deepBlue);
+}
+
 @media only screen and (min-width: 768px) {
 
     .coreValue {

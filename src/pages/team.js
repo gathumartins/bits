@@ -80,7 +80,7 @@ function Team() {
                                 <figcaption className="my-3">
                                     <h3 className="teamName">Magdalene Wanjugu</h3>
                                     <h4 className="teamDes mb-2">Vision setting</h4>
-                                    <a href="/">
+                                    <a href="https://www.linkedin.com/in/magdalene-wanjugu-b64986142" target="_blank" rel="noreferrer">
                                         <span className="hidden">NairoBits Team LinkedIn handle</span>
                                         <FaLinkedin className="w-8 h-8 teamLinkedin" /></a>
                                 </figcaption>
@@ -92,7 +92,7 @@ function Team() {
                                 <figcaption className="my-3">
                                     <h3 className="teamName">John Isika</h3>
                                     <h4 className="teamDes mb-2">People & Systems</h4>
-                                    <a href="/">
+                                    <a href="https://www.linkedin.com/in/john-isika-9b065628/" target="_blank" rel="noreferrer">
                                         <span className="hidden">NairoBits Team LinkedIn handle</span>
                                         <FaLinkedin className="w-8 h-8 teamLinkedin" /></a>
                                 </figcaption>
@@ -104,7 +104,7 @@ function Team() {
                                 <figcaption className="my-3">
                                     <h3 className="teamName">Sam Nyamwange</h3>
                                     <h4 className="teamDes mb-2">Growth & Sustainability</h4>
-                                    <a href="/">
+                                    <a href="https://www.linkedin.com/in/nyamwange-sam-903566127/" target="_blank" rel="noreferrer">
                                         <span className="hidden">NairoBits Team LinkedIn handle</span>
                                         <FaLinkedin className="w-8 h-8 teamLinkedin" /></a>
                                 </figcaption>
@@ -116,7 +116,7 @@ function Team() {
                                 <figcaption className="my-3">
                                     <h3 className="teamName">Martin Gathu</h3>
                                     <h4 className="teamDes mb-2">Coding & Guiding</h4>
-                                    <a href="/">
+                                    <a href="https://www.linkedin.com/in/gathumartins/" target="_blank" rel="noreferrer">
                                         <span className="hidden">NairoBits Team LinkedIn handle</span>
                                         <FaLinkedin className="w-8 h-8 teamLinkedin" /></a>
                                 </figcaption>
@@ -128,7 +128,7 @@ function Team() {
                                 <figcaption className="my-3">
                                     <h3 className="teamName">Michelle Tracy</h3>
                                     <h4 className="teamDes mb-2">Acumen</h4>
-                                    <a href="/">
+                                    <a href="/" target="_blank" rel="noreferrer">
                                         <span className="hidden">NairoBits Team LinkedIn handle</span>
                                         <FaLinkedin className="w-8 h-8 teamLinkedin" /></a>
                                 </figcaption>
@@ -140,7 +140,7 @@ function Team() {
                                 <figcaption className="my-3">
                                     <h3 className="teamName">John Mwendwa</h3>
                                     <h4 className="teamDes mb-2">Creativity & Innovation</h4>
-                                    <a href="/">
+                                    <a href="/" target="_blank" rel="noreferrer">
                                         <span className="hidden">NairoBits Team LinkedIn handle</span>
                                         <FaLinkedin className="w-8 h-8 teamLinkedin" /></a>
                                 </figcaption>
@@ -152,7 +152,7 @@ function Team() {
                                 <figcaption className="my-3">
                                     <h3 className="teamName">Philbert Aganyo</h3>
                                     <h4 className="teamDes mb-2">External Ecosystem</h4>
-                                    <a href="/">
+                                    <a href="/" target="_blank" rel="noreferrer">
                                         <span className="hidden">NairoBits Team LinkedIn handle</span>
                                         <FaLinkedin className="w-8 h-8 teamLinkedin" /></a>
                                 </figcaption>
@@ -164,7 +164,7 @@ function Team() {
                                 <figcaption className="my-3">
                                     <h3 className="teamName">Tracey Osogo</h3>
                                     <h4 className="teamDes mb-2">Acumen</h4>
-                                    <a href="/">
+                                    <a href="/" target="_blank" rel="noreferrer">
                                         <span className="hidden">NairoBits Team LinkedIn handle</span>
                                         <FaLinkedin className="w-8 h-8 teamLinkedin" /></a>
                                 </figcaption>
@@ -176,7 +176,7 @@ function Team() {
                                 <figcaption className="my-3">
                                     <h3 className="teamName">Kennedy Wachira</h3>
                                     <h4 className="teamDes mb-2">Design & Fun</h4>
-                                    <a href="/">
+                                    <a href="/" target="_blank" rel="noreferrer">
                                         <span className="hidden">NairoBits Team LinkedIn handle</span>
                                         <FaLinkedin className="w-8 h-8 teamLinkedin" /></a>
                                 </figcaption>
@@ -188,7 +188,7 @@ function Team() {
                                 <figcaption className="my-3">
                                     <h3 className="teamName">Hope Nasali</h3>
                                     <h4 className="teamDes mb-2">Organizing & Protocol</h4>
-                                    <a href="/">
+                                    <a href="/" target="_blank" rel="noreferrer">
                                         <span className="hidden">NairoBits Team LinkedIn handle</span>
                                         <FaLinkedin className="w-8 h-8 teamLinkedin" /></a>
                                 </figcaption>
@@ -200,7 +200,7 @@ function Team() {
                                 <figcaption className="my-3">
                                     <h3 className="teamName">Edwin Bakker</h3>
                                     <h4 className="teamDes mb-2">Associate Faculty</h4>
-                                    <a href="/">
+                                    <a href="/" target="_blank" rel="noreferrer">
                                         <span className="hidden">NairoBits Team LinkedIn handle</span>
                                         <FaLinkedin className="w-8 h-8 teamLinkedin" /></a>
                                 </figcaption>
@@ -212,7 +212,7 @@ function Team() {
                                 <figcaption className="my-3">
                                     <h3 className="teamName">Chepkwony kipkoech</h3>
                                     <h4 className="teamDes mb-2">Guiding & Inspiration</h4>
-                                    <a href="/">
+                                    <a href="/" target="_blank" rel="noreferrer">
                                         <span className="hidden">NairoBits Team LinkedIn handle</span>
                                         <FaLinkedin className="w-8 h-8 teamLinkedin" /></a>
                                 </figcaption>
@@ -236,7 +236,7 @@ function Team() {
                                 <figcaption className="my-3">
                                     <h3 className="teamName">Sylvester Olouch</h3>
                                     <h4 className="teamDes mb-2">Guiding & Inspiration</h4>
-                                    <a href="/">
+                                    <a href="/" target="_blank" rel="noreferrer">
                                         <span className="hidden">NairoBits Team LinkedIn handle</span>
                                         <FaLinkedin className="w-8 h-8 teamLinkedin" /></a>
                                 </figcaption>
@@ -248,7 +248,7 @@ function Team() {
                                 <figcaption className="my-3">
                                     <h3 className="teamName">Damaris Muange</h3>
                                     <h4 className="teamDes mb-2">Guiding & Inspiration</h4>
-                                    <a href="/">
+                                    <a href="/" target="_blank" rel="noreferrer">
                                         <span className="hidden">NairoBits Team LinkedIn handle</span>
                                         <FaLinkedin className="w-8 h-8 teamLinkedin" /></a>
                                 </figcaption>
@@ -260,7 +260,7 @@ function Team() {
                                 <figcaption className="my-3">
                                     <h3 className="teamName">Tracy Opon</h3>
                                     <h4 className="teamDes mb-2">Communication</h4>
-                                    <a href="/">
+                                    <a href="/" target="_blank" rel="noreferrer">
                                         <span className="hidden">NairoBits Team LinkedIn handle</span>
                                         <FaLinkedin className="w-8 h-8 teamLinkedin" /></a>
                                 </figcaption>
@@ -272,7 +272,7 @@ function Team() {
                                 <figcaption className="my-3">
                                     <h3 className="teamName">Duncan</h3>
                                     <h4 className="teamDes mb-2">Guiding & Inspiration</h4>
-                                    <a href="/">
+                                    <a href="/" target="_blank" rel="noreferrer">
                                         <span className="hidden">NairoBits Team LinkedIn handle</span>
                                         <FaLinkedin className="w-8 h-8 teamLinkedin" /></a>
                                 </figcaption>
@@ -284,7 +284,7 @@ function Team() {
                                 <figcaption className="my-3">
                                     <h3 className="teamName">Natasha</h3>
                                     <h4 className="teamDes mb-2">Programs Assistant</h4>
-                                    <a href="/">
+                                    <a href="/" target="_blank" rel="noreferrer">
                                         <span className="hidden">NairoBits Team LinkedIn handle</span>
                                         <FaLinkedin className="w-8 h-8 teamLinkedin" /></a>
                                 </figcaption>
