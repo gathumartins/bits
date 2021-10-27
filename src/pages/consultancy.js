@@ -30,6 +30,33 @@ function consultancy() {
                             </Col>
                         </Row>
                     </Container>
+                    <article className={conStyles.whatWeD}>
+                        <Container>
+                            <Row>
+                                <Col className={`text-center ${conStyles.consHeader}`}>
+                                    <h2 className="text-center">What we do</h2>
+                                    <p>We work together with our clients to develop solutions and design products that fit their realities and help them prosper in the best way we know how. We use all tools in our arsenal to ensure we create shared value for both the client and their stakeholders.</p>
+                                </Col>
+                                <div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-8 ${conStyles.conOuter}`}>
+                                    <div><div className={`${conStyles.conHow}`}>
+                                        <h3>Multidisciplinary Design</h3>
+                                    </div></div>
+                                    <div><div className={`${conStyles.conHow}`}>
+                                        <h3>Communication</h3>
+                                    </div></div>
+                                    <div><div className={`${conStyles.conHow}`}>
+                                        <h3>Software solutions</h3>
+                                    </div></div>
+                                    <div><div className={`${conStyles.conHow}`}>
+                                        <h3>Product Innovation & Testing</h3>
+                                    </div></div>
+                                </div>
+                                <div>
+                                    <img src="./imgs/supportline.svg" alt="Nairobits section seperator" />
+                                </div>
+                            </Row>
+                        </Container>
+                    </article>
                 </section>
             </Layout>
         </div>

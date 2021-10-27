@@ -23,6 +23,9 @@ function apply() {
                                                 <h3>Application for Advanced Multimedia Program</h3>
                                                 <h4>Deadline: Applications Closed</h4>
                                                 <div className={proStyles.dateUnder}></div>
+                                                <a href="/programs/amp" className="progmore">Read more about program</a>
+                                                <br />
+                                                <a href="/" className="my-2 applybtn">Apply</a>
                                             </div>
                                         </div>
                                         <div className={`d-flex ${proStyles.applyOut}`}>
@@ -30,6 +33,10 @@ function apply() {
                                             <div className={`flex-grow ${proStyles.applyInn}`}>
                                                 <h3>Application for the Digital Literacy Program</h3>
                                                 <h4>Deadline: Applications Closed</h4>
+                                                <div className={proStyles.dateUnder}></div>
+                                                <a href="/programs/dlp" className="progmore">Read more about program</a>
+                                                <br />
+                                                <a href="/" className="my-2 applybtn">Apply</a>
                                             </div>
                                         </div>
                                         <div className={`d-flex ${proStyles.applyOut}`}>
@@ -37,6 +44,10 @@ function apply() {
                                             <div className={`flex-grow ${proStyles.applyInn}`}>
                                                 <h3>Application for the S-Bize Program</h3>
                                                 <h4>Deadline: Applications Closed</h4>
+                                                <div className={proStyles.dateUnder}></div>
+                                                <a href="/programs/sbiz" className="progmore">Read more about program</a>
+                                                <br />
+                                                <a href="/" className="my-2 applybtn">Apply</a>
                                             </div>
                                         </div>
                                         <div className={`d-flex ${proStyles.applyOut}`}>
@@ -44,6 +55,10 @@ function apply() {
                                             <div className={`flex-grow ${proStyles.applyInn}`}>
                                                 <h3>Applications for SRHR Youth Advocates</h3>
                                                 <h4>Deadline: Applications Closed</h4>
+                                                <div className={proStyles.dateUnder}></div>
+                                                <a href="/programs/srhr" className="progmore">Read more about program</a>
+                                                <br />
+                                                <a href="/" className="my-2 applybtn">Apply</a>
                                             </div>
                                         </div>
                                     </div>

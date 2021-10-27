@@ -15,6 +15,79 @@
     color: var(--midGray)
 }
 
+.whatWeD {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: linear-gradient(to bottom, rgba(167, 119, 94, 0.04) 40%, var(--white) 40% 100%);
+}
+
+.consHeader h2 {
+    color: var(--titleBlue);
+    font-family: var(--primaryFont);
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: 0px;
+    margin-bottom: 25px;
+}
+
+.consHeader p {
+    max-width: 900px;
+    margin: auto;
+    font-family: var(--primaryFont);
+    font-size: 1.2rem;
+    color: var(--deepGray)
+}
+
+.conHow {
+    min-height: 580px;
+    border-radius: 6px;
+    position: relative;
+    padding: 30px;
+
+}
+
+.conOuter>div:nth-child(odd) .conHow {
+    background-color: var(--footCyanMajor);
+}
+
+.conOuter>div:nth-child(odd) :before {
+    left: 33%;
+    border-top: 12px solid transparent;
+    border-right: 24px solid var(--deepOrange);
+    border-bottom: 12px solid transparent;
+}
+
+.conOuter>div:nth-child(even) :before {
+    left: 48%;
+    border-top: 12px solid transparent;
+    border-left: 24px solid var(--midPurple);
+    border-bottom: 12px solid transparent;
+}
+
+.conOuter>div:nth-child(even) .conHow {
+    background-color: var(--beigeColor);
+}
+
+.conOuter>div {
+    position: relative;
+}
+
+.conOuter>div:before {
+    content: "";
+    top: -5px;
+    left: 5%;
+    border-radius: 6px;
+    position: absolute;
+    min-height: 590px;
+    min-width: 90%;
+    background-color: var(--deepCyan);
+}
+
+.conHow h3 {
+    font: normal normal 900 26px var(--primaryFont);
+    color: var(--deepGreen);
+}
+
 /* model styles */
 .topOpsHeading h2 {
     color: var(--titleBlue);
@@ -116,6 +189,31 @@
 }
 
 /* donate styles */
+.donCont {
+    position: relative;
+}
+
+.donCont:before {
+    content: "";
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: var(--beigeColor);
+    position: absolute;
+    top: 60px;
+    right: -50px;
+}
+
+.donCont:after {
+    bottom: 20px;
+    left: -40px;
+    content: "";
+    position: absolute;
+    border-top: 75px solid transparent;
+    border-left: 130px solid var(--midPurple);
+    border-bottom: 75px solid transparent;
+}
+
 .donateInn {
     min-height: 315px;
     padding: 60px 20px;

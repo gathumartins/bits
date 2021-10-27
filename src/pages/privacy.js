@@ -1,10 +1,10 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-function volunteer() {
+function privacy() {
     return (
         <Layout></Layout>
     )
 }
 
-export default volunteer;
+export default privacy;

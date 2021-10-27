@@ -178,7 +178,11 @@
     margin-bottom: 25px;
     text-align: center;
     color: var(--deepGreen);
-
+    padding: 10px;
+    max-width: 250px;
+    margin: 0 auto;
+    border-radius: 12px;
+    background-color: var(--white);
 }
 
 /* .supportOut {
@@ -188,7 +192,6 @@
 .supportCont {
     position: relative;
     max-width: 900px;
-    min-height: 300px;
     margin: 30px auto;
 }
 
@@ -230,6 +233,35 @@
     min-height: 300px;
     border-radius: 11px;
     background-color: var(--lightGray)
+}
+
+.appCont>div:nth-child(odd) .headingIcons {
+    position: relative;
+}
+
+.appCont>div .headingIcons:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-left: 24px solid var(--midPurple);
+    border-bottom: 12px solid transparent;
+    left: 30px;
+    top: 15px;
+    z-index: 2;
+}
+
+.appCont>div .headingIcons:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    left: 15px;
+    top: 30px;
+    background-color: var(--deepCyan);
+    z-index: 1;
 }
 
 .applyOut>div:last-child {

@@ -106,7 +106,7 @@ function Footer() {
                                 <ul>
                                     <li><a href="/resources">Resources</a></li>
                                     <li><a href="/">Newsletter</a></li>
-                                    <li><a href="/">Events/ News</a></li>
+                                    <li><a href="/news">Events/ News</a></li>
                                 </ul>
                             </Col>
                             <Col xs={6} sm={6} md={3} className="mb-4">
@@ -127,8 +127,7 @@ function Footer() {
                             </Col>
                             <Col xs={6} sm={6} md={3}>
                                 <ul className="mt-4">
-                                    <li><a href="/">Privacy policy</a></li>
-                                    <li><a href="/">Our Cookie policy</a></li>
+                                    <li><a href="/privacy">Privacy policy</a></li>
                                 </ul>
                             </Col>
                             <Col xs={12} sm={12} md={6} className="mt-5 sm:text-center md:text-left">
