@@ -301,3 +301,32 @@
 .inputsft {
     font-size: 12px;
 }
+
+/* pop up */
+.modalOuter {
+    background-color: var(--deepGreen);
+}
+
+.modal-content {
+    background-color: var(--deepGreen) !important;
+}
+
+.modalHead {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 2rem !important;
+}
+
+.modalTitle {
+    color: var(--colorBlue);
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: var(--primaryFont);
+}
+
+.modalBody {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import Helmet from 'react-helmet';
+import { Link } from 'gatsby';
 import { FaLinkedin, FaFacebookSquare, FaTwitter, FaInstagramSquare } from 'react-icons/fa';
 import * as footStyles from './Footer.module.css';
 import { Container, Row, Col, InputGroup, FormControl } from 'react-bootstrap';
@@ -8,8 +8,6 @@ function Footer() {
     let year = new Date();
     return (
         <footer className={footStyles.footer}>
-            <Helmet>
-            </Helmet>
             <div className={footStyles.footStrip}></div>
             <div className={footStyles.footerTop}>
                 <Container fluid={`md`}>
@@ -56,12 +54,12 @@ function Footer() {
                                         </p>
                                     </Col>
                                     <Col xs={6} sm={6} md={12} lg={6} xl={6} className="mb-4">
-                                        <a href="/whoweare"><h3>Who we are</h3></a>
+                                        <Link to="/whoweare"><h3>Who we are</h3></Link>
                                         <ul>
-                                            <li><a href="/operatingmodel">Our operating model</a></li>
-                                            <li><a href="/history">Our History</a></li>
-                                            <li><a href="/team">Our Team</a></li>
-                                            <li><a href="/partners">Our Partners</a></li>
+                                            <li><Link to="/operatingmodel">Our operating model</Link></li>
+                                            <li><Link to="/history">Our History</Link></li>
+                                            <li><Link to="/team">Our Team</Link></li>
+                                            <li><Link to="/partners">Our Partners</Link></li>
                                         </ul>
                                     </Col>
                                 </Row>
@@ -69,16 +67,16 @@ function Footer() {
                             <Col xs={12} sm={12} md={6}>
                                 <Row>
                                     <Col xs={12}>
-                                        <a href="/whatwedo"><h3>What we do</h3></a>
+                                        <Link to="/whatwedo"><h3>What we do</h3></Link>
                                         <ul className={footStyles.widefootMenu}>
-                                            <li><a href="/programs/dlp">Digital Literacy Program</a></li>
-                                            <li><a href="/programs/yact">YACT</a></li>
-                                            <li><a href="/programs/amp">Advanced Multimedia Program</a></li>
-                                            <li><a href="/programs/wearebits">#WeAreBits</a></li>
-                                            <li><a href="/programs/vit">Video Impact Training</a></li>
-                                            <li><a href="/programs/rhrn">RHRN</a></li>
-                                            <li><a href="/programs/labourmarket">Labour Market Integration</a></li>
-                                            <li><a href="/consultancy">Consulting Services</a></li>
+                                            <li><Link to="/programs/dlp">Digital Literacy Program</Link></li>
+                                            <li><Link to="/programs/yact">YACT</Link></li>
+                                            <li><Link to="/programs/amp">Advanced Multimedia Program</Link></li>
+                                            <li><Link to="/programs/wearebits">#WeAreBits</Link></li>
+                                            <li><Link to="/programs/vit">Video Impact Training</Link></li>
+                                            <li><Link to="/programs/rhrn">RHRN</Link></li>
+                                            <li><Link to="/programs/labourmarket">Labour Market Integration</Link></li>
+                                            <li><Link to="/consultancy">Consulting Services</Link></li>
                                         </ul>
                                     </Col>
                                 </Row>
@@ -88,32 +86,32 @@ function Footer() {
                             <Col xs={6} sm={6} md={3} className="mb-4">
                                 <h3>Our community</h3>
                                 <ul>
-                                    <li><a href="/alumni">Alumni</a></li>
-                                    <li><a href="/students">Students</a></li>
-                                    <li><a href="/programs/sbiz">S-Bize</a></li>
+                                    <li><Link to="/alumni">Alumni</Link></li>
+                                    <li><Link to="/students">Students</Link></li>
+                                    <li><Link to="/programs/sbiz">S-Bize</Link></li>
                                 </ul>
                             </Col>
                             <Col xs={6} sm={6} md={3} className="mb-4">
                                 <h3>Join us</h3>
                                 <ul>
-                                    <li><a href="/partners">Partner</a></li>
-                                    <li><a href="/volunteer">Volunteer</a></li>
-                                    <li><a href="/careers">Careers</a></li>
+                                    <li><Link to="/partners">Partner</Link></li>
+                                    <li><Link to="/volunteer">Volunteer</Link></li>
+                                    <li><Link to="/careers">Careers</Link></li>
                                 </ul>
                             </Col>
                             <Col xs={6} sm={6} md={3} className="mb-4">
                                 <h3>Quick links</h3>
                                 <ul>
-                                    <li><a href="/resources">Resources</a></li>
+                                    <li><Link to="/resources">Resources</Link></li>
                                     <li><a href="https://mailchi.mp/nairobits/the-nairobits-way-still-rising?e=[UNIQID]" target="_blank" rel="noreferrer">Newsletter</a></li>
-                                    <li><a href="/news">Events/ News</a></li>
+                                    <li><Link to="/news">Events/ News</Link></li>
                                 </ul>
                             </Col>
                             <Col xs={6} sm={6} md={3} className="mb-4">
                                 <ul>
-                                    <li className={`rounded w-1/2 text-center mb-3 ${footStyles.doniAccess}`}><a href="/" className="p-1">iACCESS</a></li>
-                                    <li className={`rounded w-1/2 text-center mb-3 ${footStyles.donBtn}`}><a href="/donate" className="p-1">DONATE</a></li>
-                                    <li className={`rounded w-1/2 text-center mb-3 ${footStyles.applyBtn}`}><a href="/apply" className="p-1">APPLY</a></li>
+                                    <li className={`rounded w-1/2 text-center mb-3 ${footStyles.doniAccess}`}><a href="https://i-access.vercel.app" className="p-1" target="_blank" rel="noreferrer">iACCESS</a></li>
+                                    <li className={`rounded w-1/2 text-center mb-3 ${footStyles.donBtn}`}><Link to="/donate" className="p-1">DONATE</Link></li>
+                                    <li className={`rounded w-1/2 text-center mb-3 ${footStyles.applyBtn}`}><Link to="/apply" className="p-1">APPLY</Link></li>
                                 </ul>
 
                             </Col>
@@ -127,7 +125,7 @@ function Footer() {
                             </Col>
                             <Col xs={6} sm={6} md={3}>
                                 <ul className="mt-4">
-                                    <li><a href="/privacy">Privacy policy</a></li>
+                                    <li><Link to="/privacy">Privacy policy</Link></li>
                                 </ul>
                             </Col>
                             <Col xs={12} sm={12} md={6} className="mt-4 sm:text-center md:text-left">

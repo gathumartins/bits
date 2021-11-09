@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import { Helmet } from 'react-helmet';
 import { Container, Row, Col } from 'react-bootstrap';
 import * as histStyles from '../components/WhoWeAre/about.module.css';
 
@@ -7,6 +8,9 @@ import * as histStyles from '../components/WhoWeAre/about.module.css';
 function students() {
     return (
         <Layout>
+            <Helmet>
+                <title>NairoBits-Students</title>
+            </Helmet>
             <header className={`${histStyles.historyBanOut} commonbgOuter`}>
                 <div className="commonSmallBg">
                     <Container fluid={`md`} className={`commonHeader conContSpe`}>

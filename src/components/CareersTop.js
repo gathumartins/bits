@@ -1,11 +1,12 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import * as histStyles from './WhoWeAre/about.module.css';
+import CareersBtm from './CareersBtm';
 
 function CareersTop() {
     return (
-        <header className={histStyles.historyBanOut}>
-            <div className={histStyles.historyBan}>
+        <header className={histStyles.careerBanOut}>
+            <div className={`${histStyles.historyBan} ${histStyles.careerBan}`}>
                 <Container fluid={`md`}>
                     <Row>
                         <Col xs={12}>
@@ -17,11 +18,12 @@ function CareersTop() {
                             <h4>Meet the Team</h4>
                             <p>We offer careers, not just jobs, and take pride in going the extra mile to serve our people in need. Joining NairoBits means sharing in our mission and living by our core values.</p>
                         </Col>
-                        <Col xs={12} sm={12} md={6} lg={6} className={histStyles.histImg}>
+                        <Col xs={12} sm={12} md={6} lg={6} className={`${histStyles.histImg} ${histStyles.carImg}`}>
                             <img src="./imgs/careers.png" fluid="true" alt="nairobits careers" className="careerImg" />
                         </Col>
                     </Row>
                 </Container>
+                <CareersBtm />
             </div>
         </header>
     )

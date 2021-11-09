@@ -217,13 +217,13 @@
     background: var(--deepGreen);
 }
 
-.srcBtn a {
+.srcBtn button {
     font-weight: bold;
     color: var(--titleBlue);
     transition: all ease 0.6s;
 }
 
-.srcBtn a:hover {
+.srcBtn button:hover {
     color: var(--footOrange);
 }
 
@@ -278,7 +278,7 @@
 
 @media only screen and (max-width: 1165px) {
     .deskNavbar {
-        display: none;
+        display: none !important;
     }
 
     .menuBtns {

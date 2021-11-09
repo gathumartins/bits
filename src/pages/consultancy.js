@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Container, Row, Col } from 'react-bootstrap';
 import * as conStyles from '../components/Minor.module.css';
 import Layout from '../components/Layout';
@@ -7,6 +8,9 @@ function consultancy() {
     return (
         <div>
             <Layout>
+                <Helmet>
+                    <title>NairoBits-Consultancy</title>
+                </Helmet>
                 <section className={conStyles.conTop}>
                     <div className="grid grid-cols-3">
                         <img src="./imgs/agakhan.png" fluid="true" alt="Nairobits programs bottom" />

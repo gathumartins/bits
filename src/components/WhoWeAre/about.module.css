@@ -228,7 +228,7 @@ h2 {
 
 /* History page styles */
 .historyBanOut {
-    background-image: linear-gradient(to bottom, var(--footCyanMajor)50%, var(--white)50%);
+    background-image: linear-gradient(to bottom, var(--footCyanMajor)40%, var(--white)40%);
 }
 
 .historyBan {
@@ -418,45 +418,330 @@ h2 {
 }
 
 .studentBtm h4 {
-    font: normal normal 600 1.4rem var(--primaryFont);
+    font-family: var(--primaryFont);
+    font-size: 1.4rem;
+    font-weight: 600;
     color: var(--titleBlue);
     margin-bottom: 15px;
 }
 
 .studentBtm P {
-    font: normal normal normal 1.1rem var(--primaryFont);
+    font-size: var(--primaryFont);
+    font-size: 1.1rem;
+    font-weight: normal;
     color: var(--deepGray);
 }
 
 /* alumni  */
 .alumniMid h3 {
     text-align: center;
-    font: normal normal 600 2.5rem var(--primaryFont);
+    font-weight: var(--primaryFont);
+    font-size: 2.5rem;
+    font-weight: 600;
     color: var(--deepGreen);
     margin-bottom: 50px;
 }
 
 .alumniMidInn>div {
-    min-height: 300px;
+    min-height: 280px;
     border-radius: 11px;
-    padding: 15px;
-    font: normal normal bold 1.6rem var(--primaryFont);
+    padding: 25px;
 }
 
 .alumniMidInn>div:first-child {
     background-color: var(--colorBlue);
+    color: var(--footCyanMajor)
 }
 
 .alumniMidInn>div:nth-child(2) {
     background-color: var(--deepOrange);
+    color: var(--bBlack);
 }
 
 .alumniMidInn>div:nth-child(3) {
     background-color: var(--deepGreen);
+    color: var(--footCyanMajor)
 }
 
 .alumniMidInn>div:last-child {
     background-color: var(--deepBlue);
+    color: var(--lighterPurple);
+}
+
+.alumni {
+    padding: 15px;
+    position: relative;
+    min-height: 250px;
+}
+
+.bottomLine {
+    width: 100px;
+    background-color: var(--bBlack);
+    height: 5px;
+    margin: 0 auto;
+}
+
+.alumniMidInn>div:nth-child(odd) .alumniITop {
+    height: 35px;
+    width: 35px;
+    background-color: var(--footCyanMajor);
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.alumniMidInn>div:nth-child(odd) .bottomLine {
+    background-color: var(--footCyanMajor);
+}
+
+.alumniMidInn>div:nth-child(even) .alumniITop {
+    height: 0px;
+    width: 0px;
+    border-top: 17px solid transparent;
+    border-right: 30px solid var(--deepGreen);
+    border-bottom: 17px solid transparent;
+    margin: 20px auto;
+}
+
+.alumniMidInn>div:last-child .alumniITop {
+    height: 0px;
+    width: 0px;
+    border-top: 17px solid transparent;
+    border-right: 0px;
+    border-left: 30px solid var(--deepOrange);
+    border-bottom: 17px solid transparent;
+    margin: 20px auto;
+}
+
+.alumniMidInn>div:last-child .bottomLine {
+    background-color: var(--lightPurple);
+}
+
+.alumni h5 {
+    text-align: center;
+    font-size: 1.6rem;
+    letter-spacing: 0px;
+    font-weight: bold;
+    min-height: 130px;
+    font-family: var(--primaryFont);
+}
+
+/* careers */
+.careersBtm {
+    padding-top: 150px;
+}
+
+.careerBanOut {
+    background-image: linear-gradient(to bottom, var(--footCyanMajor)20%, var(--white)20%);
+}
+
+.careerBan {
+    min-height: 250px;
+    background-image: url('../../../static/imgs/innersmallbg.svg');
+    background-size: 100% 40%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 60px;
+    padding-top: 130px;
+}
+
+.careersBtm h2 {
+    color: var(--deepOrange);
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.careersBtm ul {
+    margin-bottom: 25px;
+}
+
+.careersBtm ul li {
+    color: var(--midBlue);
+}
+
+.careersFoot p {
+    max-width: 500px;
+    margin: 30px auto;
+    font-style: italic;
+}
+
+.carImg:before {
+    right: -40px;
+}
+
+.careersInn>div {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.career {
+    min-height: 170px;
+    border-radius: 11px;
+    padding: 30px 15px;
+    background-color: var(--footCyanMajor);
+    display: grid;
+    grid-template-columns: 70px auto;
+}
+
+.careerIcons {
+    position: relative;
+
+}
+
+.careersInn>div>.career>.careerIcons:before {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--stripecyan);
+}
+
+.careersInn>div>.career>.careerIcons:after {
+    position: absolute;
+    content: "";
+    height: 0px;
+    width: 0px;
+    top: -10px;
+    right: 35px;
+    border-top: 12px solid transparent;
+    border-left: 20px solid var(--midPurple);
+    border-bottom: 12px solid transparent;
+}
+
+.careersInn>div>.career:nth-child(even)>.careerIcons:before {
+    background-color: var(--lighterGray);
+}
+
+.careersInn>div>.career:nth-child(even)>.careerIcons:after {
+    border-left: 20px solid var(--siteOrange);
+}
+
+.career h5 {
+    color: var(--deepGray);
+    font-family: var(--primaryFont);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.career p {
+    color: var(--lighterGray);
+    font-family: var(--primaryFont);
+    font-weight: normal;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.career h6 {
+    color: var(--deepGreen);
+    font-family: var(--primaryFont);
+    font-weight: normal;
+    font-size: 1rem;
+    margin-top: 4px;
+    position: relative;
+}
+
+.career h6:after {
+    content: " ";
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+    background-color: var(--stripecyan)
+}
+
+/* volunteer */
+.volunteerBanOut {
+    background-image: linear-gradient(to bottom, var(--footCyanMajor)50%, var(--white)50%);
+}
+
+.volunterBan {
+    min-height: 400px;
+    background-image: url('../../../static/imgs/innersmallbg.svg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 60px;
+    padding-top: 130px;
+}
+
+.volunterBan h2 {
+    position: relative;
+    z-index: 3;
+    font-weight: 900;
+    color: var(--colorBlue);
+}
+
+.volunterBan h2:before {
+    position: absolute;
+    content: "\201C";
+    font-size: 10rem;
+    z-index: -1;
+    top: -50px;
+    width: 102px;
+    height: 84px;
+    color: var(--beigeColor);
+}
+
+.volunterBan h2 cite {
+    margin-top: 50px;
+    color: var(--deepOrange);
+    font-size: 1.8rem;
+    font-style: normal;
+}
+
+.volunteerMid p {
+    max-width: 650px !important;
+    margin: 30px auto;
+    text-align: center;
+    font-family: var(--primaryFont);
+    font-size: 1.1rem;
+    color: var(--midGray);
+}
+
+.volBtm {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.volBtm h2 {
+    text-align: left;
+    font-family: var(--primaryFont);
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: 0px;
+    margin-bottom: 25px;
+    color: var(--colorBlue);
+}
+
+.volBtm p {
+    margin: 30px auto;
+    font-family: var(--primaryFont);
+    font-size: 1.1rem;
+    color: var(--midGray);
+}
+
+.volImg {
+    position: relative;
+    z-index: 10;
+}
+
+.volImg img {
+    position: relative;
+    top: 0;
+    z-index: 10;
+}
+
+.volImg:after {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 70px;
+    bottom: -20px;
+    border-radius: 50%;
+    background-color: var(--beigeColor);
+    z-index: 1;
 }
 
 @media only screen and (min-width: 768px) {

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Container } from 'react-bootstrap';
 import Layout from '../components/Layout';
 import { FaLinkedin } from 'react-icons/fa';
@@ -7,6 +8,9 @@ import * as teamStyles from '../components/WhoWeAre/about.module.css';
 function Team() {
     return (
         <Layout>
+            <Helmet>
+                <title>NairoBits-Team</title>
+            </Helmet>
             <section className="commonbgOuter">
                 <div className="commonMidBg">
                     <header className="commonHeader">

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://dawn.nairobits.com",
     title: "nairobits",
   },
   plugins: [

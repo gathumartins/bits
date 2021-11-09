@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import { Helmet } from 'react-helmet';
 import { Container, Row, Col } from 'react-bootstrap';
 import * as histStyles from '../components/WhoWeAre/about.module.css';
 
@@ -7,6 +8,9 @@ import * as histStyles from '../components/WhoWeAre/about.module.css';
 function alumni() {
     return (
         <Layout>
+            <Helmet>
+                <title>NairoBits-Alumni</title>
+            </Helmet>
             <header className={`${histStyles.historyBanOut} commonbgOuter`}>
                 <div className="commonSmallBg">
                     <Container fluid={`md`} className={`commonHeader conContSpe`}>
@@ -29,10 +33,26 @@ function alumni() {
                 <Container className={`py-14 ${histStyles.alumniMid}`}>
                     <h3>We invite our alumni to:</h3>
                     <div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 ${histStyles.alumniMidInn}`}>
-                        <div className="alumni"></div>
-                        <div className="alumni"></div>
-                        <div className="alumni"></div>
-                        <div className="alumni"></div>
+                        <div className={histStyles.alumni}>
+                            <div className={histStyles.alumniITop}></div>
+                            <h5>Mentor/ Volunteer as a guest trainer</h5>
+                            <div className={histStyles.bottomLine}></div>
+                        </div>
+                        <div className={histStyles.alumni}>
+                            <div className={histStyles.alumniITop}></div>
+                            <h5>Hire an Intern</h5>
+                            <div className={histStyles.bottomLine}></div>
+                        </div>
+                        <div className={histStyles.alumni}>
+                            <div className={histStyles.alumniITop}></div>
+                            <h5>Donate/ Sponsor a current learner</h5>
+                            <div className={histStyles.bottomLine}></div>
+                        </div>
+                        <div className={histStyles.alumni}>
+                            <div className={histStyles.alumniITop}></div>
+                            <h5>Co-bid for consulting assignments with us</h5>
+                            <div className={histStyles.bottomLine}></div>
+                        </div>
                     </div>
                 </Container>
             </section>

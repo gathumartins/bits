@@ -1,10 +1,14 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Container } from 'react-bootstrap';
 import Layout from '../components/Layout';
 
 function privacy() {
     return (
         <Layout>
+            <Helmet>
+                <title>NairoBits-Privacy</title>
+            </Helmet>
             <Container className="px-4 py-20 mt-20">
                 <div className="privacy">
                     <h1>Privacy Policy</h1>

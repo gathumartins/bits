@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Container, Row, Col } from 'react-bootstrap';
 import * as proStyles from '../components/WhatWeDo/Programs.module.css';
 import Layout from '../components/Layout';
@@ -7,6 +8,9 @@ function impact() {
     return (
         <div>
             <Layout>
+                <Helmet>
+                    <title>NairoBits-Impact</title>
+                </Helmet>
                 <section className="commonbgOuter">
                     <div className="commonSmallBg">
                         <header className="commonHeader">

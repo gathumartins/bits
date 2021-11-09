@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Container, Row, Col } from 'react-bootstrap';
 import * as operateStyles from '../components/Minor.module.css';
 import Layout from '../components/Layout';
@@ -7,6 +8,9 @@ function resources() {
     return (
         <div>
             <Layout>
+                <Helmet>
+                    <title>NairoBits-Resources</title>
+                </Helmet>
                 <section className="commonbgOuter">
                     <div className="commonSmallBg">
                         <header className="commonHeader">
@@ -18,45 +22,55 @@ function resources() {
                                     </Col>
                                 </Row>
                                 <div className={`grid grid-cols-1 sm:grid-cols-2 gap-5 ${operateStyles.resCont}`}>
+                                    <a href="https://drive.google.com/file/d/1tqCjxNKHFCOohMYBP_0J4noSji07f5Dd/view" target="_blank" rel="noreferrer" download>
+                                        <div>
+                                            <div className={operateStyles.resContInn}>
+                                                <img src="./imgs/sp.png" fluid="true" alt="" />
+                                                <div className={operateStyles.resContInnBtm}>
+                                                    <h1>Strategic Plan</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="https://drive.google.com/file/d/1pKV48kYJ0avZHsHSiTb22C9Mpic2ERj8/view" target="_blank" rel="noreferrer" download>
+                                        <div>
+                                            <div className={operateStyles.resContInn}>
+                                                <img src="./imgs/profile.png" fluid="true" alt="" />
+                                                <div className={operateStyles.resContInnBtm}>
+                                                    <h1>NairoBits Profile</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
                                     <div>
                                         <div className={operateStyles.resContInn}>
-                                            <img src="./imgs/sp.png" fluid="true" alt="" />
-                                            <div className={operateStyles.resContInnBtm}>
-                                                <h1>Strategic Plan</h1>
-                                            </div>
+                                            <a href="https://drive.google.com/file/d/1pKV48kYJ0avZHsHSiTb22C9Mpic2ERj8/view" target="_blank" rel="noreferrer" download>
+                                                <img src="./imgs/impact2020.png" fluid="true" alt="" />
+                                                <div className={operateStyles.resContInnBtm}>
+                                                    <h1>Impact Report 2020</h1>
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
                                     <div>
-                                        <div className={operateStyles.resContInn}>
-                                            <img src="./imgs/profile.png" fluid="true" alt="" />
-                                            <div className={operateStyles.resContInnBtm}>
-                                                <h1>NairoBits Profile</h1>
+                                        <a href="https://drive.google.com/file/d/1OHAZi0hStQ_0GjUBERg13PHq_QPxns1S/view" target="_blank" rel="noreferrer" download>
+                                            <div className={operateStyles.resContInn}>
+                                                <img src="./imgs/review2020.png" fluid="true" alt="" />
+                                                <div className={operateStyles.resContInnBtm}>
+                                                    <h1>2020 Year in Review</h1>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                     <div>
-                                        <div className={operateStyles.resContInn}>
-                                            <img src="./imgs/impact2020.png" fluid="true" alt="" />
-                                            <div className={operateStyles.resContInnBtm}>
-                                                <h1>Impact Report 2020</h1>
+                                        <a href="https://drive.google.com/file/d/14fZ3-RHL7z0iD9hYfpsWyka8jmiFSgad/view" target="_blank" rel="noreferrer" download>
+                                            <div className={operateStyles.resContInn}>
+                                                <img src="./imgs/impact2019.png" fluid="true" alt="" />
+                                                <div className={operateStyles.resContInnBtm}>
+                                                    <h1>Impact Report 2019</h1>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={operateStyles.resContInn}>
-                                            <img src="./imgs/review2020.png" fluid="true" alt="" />
-                                            <div className={operateStyles.resContInnBtm}>
-                                                <h1>2020 Year in Review</h1>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className={operateStyles.resContInn}>
-                                            <img src="./imgs/impact2019.png" fluid="true" alt="" />
-                                            <div className={operateStyles.resContInnBtm}>
-                                                <h1>Impact Report 2019</h1>
-                                            </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </Container>
