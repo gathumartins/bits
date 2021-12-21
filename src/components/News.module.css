@@ -1,0 +1,254 @@
+.topNews {
+    min-height: 300px;
+    padding-bottom: 40px;
+    padding-top: 130px;
+    background: -webkit-gradient(linear, to bottom, var(--footCyanMajor)0%, var(--deepCyan) 100%);
+    background: linear-gradient(to bottom, var(--footCyanMajor)0%, var(--deepCyan) 100%);
+}
+
+.topNews h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: var(--primaryFont);
+    font-weight: 900;
+    color: var(--deepBlue);
+}
+
+.topNewsStory {
+    position: relative;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.topNewsStory:first-child>div {
+    width: 55%;
+    min-height: 396px;
+    border: 1px solid #FAFAFA;
+    border-radius: 8px;
+    background-color: var(--white);
+    padding: 50px 25px;
+    margin-bottom: 25px;
+}
+
+.topNewsStory:first-child>div h3 {
+    font-family: var(--primaryFont);
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: var(--bBlack);
+}
+
+.topNewsStory:first-child>div p {
+    max-width: 350px;
+    font-family: var(--primaryFont);
+    font-size: 1rem;
+    color: var(--midGray);
+}
+
+.topNewsStory a {
+    display: inline-block;
+    margin-top: 30px;
+    font-family: var(--primaryFont);
+    font-size: 1rem;
+    font-weight: Bold;
+    color: var(--deepGreen);
+}
+
+.topNewsStory a:hover {
+    color: var(--deepOrange)
+}
+
+.topNewsStory figure {
+    max-width: 50%;
+    position: absolute;
+    right: 0;
+}
+
+.topNewsStory figure img {
+    max-height: 350px;
+}
+
+.btmNews {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.singleNews {
+    padding: 35px;
+}
+
+.singleNewsIn h6 {
+    width: 100%;
+    font-family: var(--primaryFont);
+    font-size: 1.1rem;
+    color: var(--midGray);
+}
+
+.singleNewsInn {
+    width: 100%;
+    min-height: 350px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.fig {
+    position: absolute;
+}
+
+.fig img {
+    height: 150px !important;
+    object-position: top center !important;
+}
+
+.singleCont {
+    position: relative;
+    display: grid;
+    grid-template-columns: 70% auto;
+    gap: 5rem;
+}
+
+.newsexcerpt h3 {
+    font-family: var(--primaryFont);
+    font-size: 1.5rem;
+    font-weight: Bold;
+    color: var(--deepGray);
+}
+
+.newsexcerpt p {
+    font-family: var(--primaryFont);
+    font-size: 1rem;
+    color: #6C6C6C;
+}
+
+.newsexcerpt a,
+.partnerCont a {
+    font-family: var(--primaryFont);
+    font-size: 1rem;
+    font-weight: Bold;
+    color: var(--deepGreen);
+}
+
+.newsexcerpt a:hover,
+.partnerCont a:hover {
+    color: var(--deepOrange);
+}
+
+.singleCont figure {
+    right: -55px;
+    top: 55px;
+    max-width: 150px;
+}
+
+.excerPad {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* media Queries */
+@media only screen and (min-width: 992px) and (max-width:1199px) {
+    .singleCont {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    .fig {
+        position: unset;
+    }
+
+    .singleCont figure {
+        max-width: unset;
+        top: 0;
+        right: 0;
+    }
+
+    .excerPad {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .singleNewsInn h6 {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .topNewsStory:first-child>div {
+        width: 65%;
+    }
+
+    .topNewsStory figure {
+        width: 40%;
+    }
+
+    .fig img {
+        height: 200px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .topNewsStory {
+        background-color: var(--white);
+        border: 1px solid #FAFAFA;
+        border-radius: 8px;
+        padding: 15px;
+    }
+
+    .topNewsStory:first-child>div {
+        width: 100%;
+        min-height: unset;
+        padding: 35px 0px 0px;
+    }
+
+    .topNewsStory:first-child>div p {
+        max-width: unset;
+    }
+
+
+    .topNewsStory figure {
+        position: unset;
+        max-width: unset;
+    }
+
+    .topNewsStory figure img {
+        border-radius: 18px;
+        max-height: unset;
+    }
+
+    .fig img {
+        height: 230px !important;
+    }
+}
+
+@media only screen and (max-width:565px) {
+    .singleCont {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    .fig {
+        position: unset;
+    }
+
+    .singleCont figure {
+        max-width: unset;
+        top: 0;
+        right: 0;
+    }
+
+    .excerPad {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .singleNews {
+        padding: 35px 0px;
+    }
+
+    .singleNewsInn h6 {
+        margin-bottom: 15px;
+    }
+}

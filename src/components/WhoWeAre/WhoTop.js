@@ -1,4 +1,5 @@
 import React from 'react';
+import {StaticImage} from "gatsby-plugin-image";
 import { Container, Row, Col } from 'react-bootstrap';
 import * as whoStyles from './about.module.css';
 
@@ -9,15 +10,15 @@ function WhoTop() {
             <header className={`${whoStyles.topPage} d-flex align-items-center min-h-screen py-20`}>
                 <Container fluid={`md`} className={whoStyles.banInn}>
                     <Row>
-                        <Col xs={12} sm={12} md={6}>
+                        <Col xs={12} sm={12} md={12} lg={6}>
                             <h2>About Us</h2>
                             <p>NairoBits Trust is a Kenyan non-profit that leverages ICT to empower disadvantaged youth from the informal settlements of Nairobi. We offer alternative higher education programs that unlock careers in tech through digital skills training and professional integration with the labor market.</p>
                             <p>Our programming is based on a two pronged strategic approach i.e. Enhancing the capacity of underserved youth to increase their readiness for them to make gainful advantage of the digital age and; Promoting the creation of opportunities and utilization of available ones in the ICT sub-sector. </p>
                             <p>These strategic approaches are the backbone of our programs ranging across technical skills on digital literacy, acumen building and creating wholesome subsector change through advocacy on the digital divide across marginalized groups.</p>
                         </Col>
-                        <Col xs={12} sm={12} md={6} className={`py-20 ${whoStyles.banRightOut}`}>
+                        <Col xs={12} sm={12} md={12} lg={6} className={`py-20 ${whoStyles.banRightOut}`}>
                             <figure >
-                                <img src="./imgs/amp.png" fluid="true" alt="Nairobits about us banner" className={`${whoStyles.banRight} z-50`} />
+                                <StaticImage src="../../images/amp.png" fluid="true" alt="Nairobits about us banner" className={`${whoStyles.banRight} z-50`} />
                             </figure>
                         </Col>
                     </Row>
@@ -30,8 +31,8 @@ function WhoTop() {
                             <div className={`py-2`}>
                                 <div className={`${whoStyles.misvisInn} ${whoStyles.misvisL}`}>
                                     <h2>Our misson</h2>
-                                    <div className="flex">
-                                        <img src="./imgs/mission.svg" className="mr-7" alt="mission vision icons" />
+                                    <div>
+                                        <StaticImage src="../../images/mission.svg" className="sm:mr-5 md:mr-5 h-10 w-10" alt="mission vision icons" />
                                         <h6>Empowered and transformed youth who positively impact the societies.</h6>
                                     </div>
                                 </div>
@@ -39,8 +40,8 @@ function WhoTop() {
                             <div className={`py-2`}>
                                 <div className={`${whoStyles.misvisInn} ${whoStyles.misvisR}`}>
                                     <h2>Our vision</h2>
-                                    <div className="flex">
-                                        <img src="./imgs/vision.svg" className="sm:mr-5 md:mr-10" alt="mission vision icons" />
+                                    <div>
+                                        <StaticImage src="../../images/vision.svg" className="sm:mr-5 md:mr-5 h-10 w-10" alt="mission vision icons" />
                                         <h6>Harnessing ICT to place youth at the center of societal engagements and solutions</h6>
                                     </div>
                                 </div>

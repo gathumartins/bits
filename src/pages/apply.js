@@ -24,22 +24,22 @@ function apply() {
                                         <div className={`w-14 ${proStyles.headingIcons}`}></div>
                                         <div className={`flex-grow ${proStyles.applyInn}`}>
                                             <h3>Application for Advanced Multimedia Program</h3>
-                                            <h4>Deadline: Applications Closed</h4>
+                                            <h4>Deadline: 9<sup>TH</sup> January 2022</h4>
                                             <div className={proStyles.dateUnder}></div>
                                             <a href="/programs/amp" className="progmore">Read more about program</a>
                                             <br />
-                                            <a href="/" className="my-2 applybtn">Apply</a>
+                                            <a href="https://applyamp.nairobits.com" className="my-2 applybtn" target="_blank" rel="noreferrer">Apply</a>
                                         </div>
                                     </div>
                                     <div className={`d-flex ${proStyles.applyOut}`}>
                                         <div className={`w-14 ${proStyles.headingIcons}`}></div>
                                         <div className={`flex-grow ${proStyles.applyInn}`}>
                                             <h3>Application for the Digital Literacy Program</h3>
-                                            <h4>Deadline: Applications Closed</h4>
+                                            <h4>Deadline: 9<sup>TH</sup> January 2022</h4>
                                             <div className={proStyles.dateUnder}></div>
                                             <a href="/programs/dlp" className="progmore">Read more about program</a>
                                             <br />
-                                            <a href="/" className="my-2 applybtn">Apply</a>
+                                            <a href="https://applydlp.nairobits.com" className="my-2 applybtn" target="_blank" rel="noreferrer">Apply</a>
                                         </div>
                                     </div>
                                     <div className={`d-flex ${proStyles.applyOut}`}>
@@ -50,7 +50,8 @@ function apply() {
                                             <div className={proStyles.dateUnder}></div>
                                             <a href="/programs/sbiz" className="progmore">Read more about program</a>
                                             <br />
-                                            <a href="/" className="my-2 applybtn">Apply</a>
+
+                                            {/*<a href="/" className="my-2 applybtn">Apply</a> */}
                                         </div>
                                     </div>
                                     <div className={`d-flex ${proStyles.applyOut}`}>
@@ -61,7 +62,7 @@ function apply() {
                                             <div className={proStyles.dateUnder}></div>
                                             <a href="/programs/srhr" className="progmore">Read more about program</a>
                                             <br />
-                                            <a href="/" className="my-2 applybtn">Apply</a>
+                                            {/*<a href="/" className="my-2 applybtn">Apply</a> */}
                                         </div>
                                     </div>
                                 </div>

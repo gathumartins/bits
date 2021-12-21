@@ -1,4 +1,5 @@
 import React from 'react';
+import {StaticImage} from "gatsby-plugin-image";
 import { Container, Row, Col } from 'react-bootstrap';
 import * as coreStyles from './about.module.css';
 
@@ -11,7 +12,7 @@ function CoreValues() {
                         <h1>Our core values</h1>
                     </Col>
                     <Col xs={12} className="my-4">
-                        <img src="./imgs/corevalues.svg" fluid="true" alt="NairoBits core values" />
+                        <StaticImage src="../../images/corevalues.svg" fluid="true" alt="NairoBits core values" />
                     </Col>
                     <Col xs={12}>
                         <Row className="mb-10">

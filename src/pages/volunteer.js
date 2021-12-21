@@ -27,7 +27,7 @@ function volunteer() {
             <section className="py-14">
                 <Container className={`${volStyles.volunteerMid}`}>
                     <p>Volunteers fuel our mission with an unmatched energy. They rekindle our passion whenever we are burning out and you could be one too!</p>
-                    <div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 ${volStyles.alumniMidInn}`}>
+                    <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 ${volStyles.alumniMidInn}`}>
                         <div className={volStyles.alumni}>
                             <div className={volStyles.alumniITop}></div>
                             <h5>Co-deliver ICT training with us</h5>

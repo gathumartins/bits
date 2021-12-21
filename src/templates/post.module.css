@@ -1,0 +1,23 @@
+.postContentContOut {
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+
+.postImgCont img {
+    margin-top: 30px !important;
+    margin-bottom: 60px !important;
+    max-height: 400px;
+    font-weight: bold;
+    object-position: top center !important;
+}
+
+.postContentContOut h6 {
+    color: var(--midGray);
+}
+
+.postContentContOut p {
+    font-family: var(--primaryFont);
+    font-size: 1rem;
+    color: #6C6C6C;
+    margin-bottom: 30px;
+}

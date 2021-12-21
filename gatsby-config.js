@@ -1,3 +1,4 @@
+const path = require(`path`)
 module.exports = {
   siteMetadata: {
     siteUrl: "https://dawn.nairobits.com",
@@ -5,17 +6,25 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-zopfli',
+      options: {
+        extensions: ['css', 'html', 'js', 'svg', 'png', 'jpg', 'jpeg'],
+      }
+    },
+    {
       resolve: "gatsby-source-wordpress",
       options: {
         url: "https://dawn.nairobits.com/graphql",
         schema: {
-          perPage: 20,
-          requestConcurrency: 5,
-          previewRequestConcurrency: 2,
+          perPage: 25,
+          requestConcurrency: 1,
+          previewRequestConcurrency: 1,
         },
       },
     },
-    "gatsby-plugin-image",
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     {
@@ -31,7 +40,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/images/",
+        path: path.join(__dirname, `src`, `images`),
       },
       __key: "images",
     },

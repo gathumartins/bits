@@ -43,11 +43,11 @@ function students() {
                 <Container fluid={`md`}>
                     <section className="studentBtmInn">
                         <Row>
-                            <Col className="mb-5">
+                            <Col className="md:mb-5" xs={12} sm={12} md={6}>
                                 <h4>Make a suggestion to improve your student life</h4>
                                 <p>We are providing this space for our current students to make direct suggestions to our management and board on suggestions they may have to better the learning experience @ NairoBits.</p>
                             </Col>
-                            <Col className="mb-5 d-flex align-items-center text-center">
+                            <Col className="md:mb-5 d-flex align-items-center text-center" xs={12} sm={12} md={6}>
                                 <div className="applybtnS">Submit Interest</div>
                             </Col>
                         </Row>

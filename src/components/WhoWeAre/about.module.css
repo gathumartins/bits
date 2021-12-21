@@ -53,8 +53,8 @@ h2 {
 .banRight {
     position: relative;
     z-index: 2;
-    height: 350px;
-    max-width: 500px;
+    max-height: 350px;
+    max-width: 100%;
     margin: auto;
     z-index: 20;
     border-radius: 27px;
@@ -73,6 +73,10 @@ h2 {
     min-height: 300px;
     padding: 35px;
     border-radius: 6px;
+}
+
+.misvisInn>div {
+    display: flex;
 }
 
 .misvisL:first-child {
@@ -96,7 +100,7 @@ h2 {
     font-family: var(--primaryFont);
     font-weight: 300;
     line-height: 2.7rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 /* core styles */
@@ -278,7 +282,7 @@ h2 {
 }
 
 .histImg img {
-    position: relative;
+    position: absolute;
     z-index: 10;
 }
 
@@ -310,7 +314,7 @@ h2 {
     min-height: 300px;
 }
 
-.founder div:first-child {
+.founder>.founderInn {
     position: relative;
     text-align: center
 }
@@ -330,36 +334,36 @@ h2 {
 }
 
 .founder img {
-    display: inline-block;
     margin-left: 5%;
-    position: relative;
+    position: absolute;
+    object-fit: contain !important;
     z-index: 50;
 }
 
-.founder div:first-child:before {
+.founder>.founderInn:before {
     content: " ";
     top: 0;
     width: 60%;
-    margin-left: 20%;
+    margin-left: 18%;
     margin-right: 20%;
     height: 400px;
     background-color: var(--deepCyan);
     opacity: 0.34;
     position: absolute;
     border-radius: 6px;
-    z-index: -1;
+    z-index: 1;
 }
 
-.founder div:first-child::after {
+.founder>.founderInn:after {
     content: " ";
-    width: 72%;
+    width: 75%;
     top: 20px;
-    margin-left: -32%;
+    margin-left: -34%;
     height: 350px;
     background-color: var(--footCyanMajor);
     position: absolute;
     border-radius: 6px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .founderCapt {
@@ -445,7 +449,11 @@ h2 {
 .alumniMidInn>div {
     min-height: 280px;
     border-radius: 11px;
-    padding: 25px;
+    padding: 25px 0px 0px;
+}
+
+.alumniMidInn>div h5 {
+    padding: 0px 25px;
 }
 
 .alumniMidInn>div:first-child {
@@ -744,6 +752,135 @@ h2 {
     z-index: 1;
 }
 
+/* partners styles */
+.partnerOp {
+    background: rgba(167, 119, 94, 0.04);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.partnersTopSect {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.partnersTopSect h2 {
+    text-align: center;
+    color: var(--deepOrange);
+    font-size: 3rem;
+    font-weight: Bold;
+    font-family: var(--primaryFont);
+}
+
+.partnersTopSect h3 {
+    text-align: center;
+    font-weight: var(--primaryFont);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--deepGreen);
+    margin: 0px auto 50px;
+}
+
+.partnersTopList ul {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.partnersTopList ul li {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: var(--primaryFont);
+
+}
+
+.partnerOp h4 {
+    max-width: 768px;
+    text-align: center;
+    font-weight: var(--primaryFont);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--deepGreen);
+    margin: 0px auto 50px;
+}
+
+.partnersOpBtm {
+    margin-top: 15px;
+    height: 150px;
+    background-color: var(--footCyanMajor);
+    padding: 25px 15px 15px;
+    border-radius: 0px 0px 11px 11px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.partnersOpBtm p {
+    font-family: var(--primaryFont);
+    font-size: 1.1rem;
+    color: var(--deepGray);
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 20;
+    text-align: center;
+}
+
+.partnersBttm {
+    background: var(--white);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.partnersBttm h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: var(--primaryFont);
+    color: var(--deepOrange);
+    max-width: 250px;
+    margin: auto;
+}
+
+.partnersBttm ul li {
+    position: relative;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.partnersBttm ul li:nth-child(odd):before {
+    content: " ";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: var(--deepOrange);
+    border-radius: 50%;
+    margin-left: -25px;
+    top: 6px;
+}
+
+.partnersBttm ul li:nth-child(even):before {
+    content: " ";
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    border-top: 7px solid transparent;
+    border-right: 15px solid var(--deepGreen);
+    border-bottom: 7px solid transparent;
+    margin-left: -25px;
+    top: 6px;
+}
+
+@media only screen and (min-width: 992px) {
+    /*.misvisInn>div img {*/
+    /*    max-width: 15% !important;*/
+    /*}*/
+}
+
+@media only screen and (max-width: 991px) {
+
+    .carImg:before {
+        top: -50px;
+        right: 0px;
+    }
+}
+
 @media only screen and (min-width: 768px) {
 
     .coreValue {
@@ -756,10 +893,114 @@ h2 {
         font-size: 1.2rem;
         line-height: 1.2;
     }
+
+    .misvisInn>div {
+        display: inline-block;
+    }
 }
 
 @media only screen and (max-width: 767px) {
+    .carImg {
+        margin-top: 50px;
+    }
+
     .topPage {
         padding-bottom: 0px;
+    }
+
+    .partnersBttm h2 {
+        max-width: unset;
+        margin-bottom: 50px;
+    }
+
+    .founder>div {
+        min-height: unset !important;
+    }
+
+    .founder img {
+        position: absolute;
+        max-width: 290px;
+        margin-left: 16%;
+        top: -20%;
+    }
+
+    .founderCapt {
+        max-width: 250px;
+        top: -30%;
+        margin-left: 30%;
+    }
+
+    .founder div>p {
+        max-width: unset;
+    }
+
+    .founder>.founderInn:before {
+        width: 30vw;
+        margin-left: 14%;
+        height: 450px;
+    }
+
+
+
+    .founder>.founderInn:after {
+        width: 35%;
+        margin-left: -20%;
+        height: 400px;
+    }
+
+    .misvisInn>div img {
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+
+    .founder>.founderInn:before {
+        width: 36%;
+        margin-left: 18%;
+        height: 450px;
+    }
+
+    .founderCapt {
+        max-width: 250px;
+        margin-left: 25%;
+    }
+
+    .founder>.founderInn:after {
+        width: 46%;
+        margin-left: -28%;
+        height: 400px;
+    }
+
+    .founder img {
+        margin-left: 14%;
+    }
+
+    .founderCapt {
+        top: -27%;
+    }
+
+    .misvisInn>div {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .founder>.founderInn:before {
+        width: 50%;
+        margin-left: 22%;
+        height: 450px;
+    }
+
+    .founderCapt {
+        max-width: 250px;
+        top: -10%;
+        margin-left: 20%;
+    }
+
+    .founder>.founderInn:after {
+        width: 62%;
+        margin-left: -30%;
+        height: 400px;
     }
 }

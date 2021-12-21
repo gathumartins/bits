@@ -21,7 +21,7 @@ function impact() {
                                     </Col>
                                     <Col xs={12} className={proStyles.video}>
                                         <figure className="mt-10 md:mt-0 ratio ratio-16x9">
-                                            <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                            <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/BAmX1Mi93No"></iframe>
                                         </figure>
                                     </Col>
                                 </Row>
@@ -35,13 +35,13 @@ function impact() {
                         <div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 ${proStyles.video}`}>
 
                             <figure className="mt-10 md:mt-0 ratio ratio-4x3">
-                                <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/8K0CinTFY3s"></iframe>
                             </figure>
                             <figure className="mt-10 md:mt-0 ratio ratio-4x3">
-                                <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/PsP5UvGPnhs"></iframe>
                             </figure>
                             <figure className="mt-10 md:mt-0 ratio ratio-4x3">
-                                <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                                <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/jD8Q7inXCuE"></iframe>
                             </figure>
                         </div>
                     </Container>

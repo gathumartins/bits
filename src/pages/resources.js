@@ -1,4 +1,5 @@
 import React from 'react';
+import {StaticImage} from "gatsby-plugin-image";
 import { Helmet } from 'react-helmet';
 import { Container, Row, Col } from 'react-bootstrap';
 import * as operateStyles from '../components/Minor.module.css';
@@ -25,7 +26,7 @@ function resources() {
                                     <a href="https://drive.google.com/file/d/1tqCjxNKHFCOohMYBP_0J4noSji07f5Dd/view" target="_blank" rel="noreferrer" download>
                                         <div>
                                             <div className={operateStyles.resContInn}>
-                                                <img src="./imgs/sp.png" fluid="true" alt="" />
+                                                <StaticImage src="../images/sp.png" fluid="true" alt="" />
                                                 <div className={operateStyles.resContInnBtm}>
                                                     <h1>Strategic Plan</h1>
                                                 </div>
@@ -35,7 +36,7 @@ function resources() {
                                     <a href="https://drive.google.com/file/d/1pKV48kYJ0avZHsHSiTb22C9Mpic2ERj8/view" target="_blank" rel="noreferrer" download>
                                         <div>
                                             <div className={operateStyles.resContInn}>
-                                                <img src="./imgs/profile.png" fluid="true" alt="" />
+                                                <StaticImage src="../images/profile.png" fluid="true" alt="" />
                                                 <div className={operateStyles.resContInnBtm}>
                                                     <h1>NairoBits Profile</h1>
                                                 </div>
@@ -44,8 +45,8 @@ function resources() {
                                     </a>
                                     <div>
                                         <div className={operateStyles.resContInn}>
-                                            <a href="https://drive.google.com/file/d/1pKV48kYJ0avZHsHSiTb22C9Mpic2ERj8/view" target="_blank" rel="noreferrer" download>
-                                                <img src="./imgs/impact2020.png" fluid="true" alt="" />
+                                            <a href="https://drive.google.com/file/d/1c3R12FeDBvyOiBk4EkTYhVqO7fPDi8go/view?usp=sharing" target="_blank" rel="noreferrer" download>
+                                                <StaticImage src="../images/impact2020.png" fluid="true" alt="" />
                                                 <div className={operateStyles.resContInnBtm}>
                                                     <h1>Impact Report 2020</h1>
                                                 </div>
@@ -55,7 +56,7 @@ function resources() {
                                     <div>
                                         <a href="https://drive.google.com/file/d/1OHAZi0hStQ_0GjUBERg13PHq_QPxns1S/view" target="_blank" rel="noreferrer" download>
                                             <div className={operateStyles.resContInn}>
-                                                <img src="./imgs/review2020.png" fluid="true" alt="" />
+                                                <StaticImage src="../images/review2020.png" fluid="true" alt="" />
                                                 <div className={operateStyles.resContInnBtm}>
                                                     <h1>2020 Year in Review</h1>
                                                 </div>
@@ -65,7 +66,7 @@ function resources() {
                                     <div>
                                         <a href="https://drive.google.com/file/d/14fZ3-RHL7z0iD9hYfpsWyka8jmiFSgad/view" target="_blank" rel="noreferrer" download>
                                             <div className={operateStyles.resContInn}>
-                                                <img src="./imgs/impact2019.png" fluid="true" alt="" />
+                                                <StaticImage src="../images/impact2019.png" fluid="true" alt="" />
                                                 <div className={operateStyles.resContInnBtm}>
                                                     <h1>Impact Report 2019</h1>
                                                 </div>

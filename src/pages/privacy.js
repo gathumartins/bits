@@ -9,8 +9,8 @@ function privacy() {
             <Helmet>
                 <title>NairoBits-Privacy</title>
             </Helmet>
-            <Container className="px-4 py-20 mt-20">
-                <div className="privacy">
+            <Container className="px-4 py-20">
+                <div className="privacy pt-20">
                     <h1>Privacy Policy</h1>
                     <p>NairoBits Trust is committed to respecting your privacy and protecting your personal information and data. This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the website and tells You about Your privacy rights and how the law protects You.</p>
                     <p>We use Your Personal data to provide and improve the Website. By using the Website, You agree to the collection and use of information in accordance with this Privacy Policy.</p>

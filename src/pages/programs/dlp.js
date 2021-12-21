@@ -1,4 +1,5 @@
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 import { Container, Row, Col } from 'react-bootstrap';
 import * as proStyles from '../../components/WhatWeDo/Programs.module.css';
 import Layout from '../../components/Layout';
@@ -59,12 +60,12 @@ function dlp() {
                         <Col xs={12} sm={12} md={5} className={`${proStyles.sideBar} mt-10 py-20 px-4 md:px-2`}>
                             <h4>Program partners</h4>
                             <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 gap-4 programsPartners">
-                                <li className="d-flex align-items-center"><img src="../imgs/yike.png" alt="NairBits Diligital Literacy partners YIKE" /></li>
-                                <li className="d-flex align-items-center"><img src="../imgs/wkw.png" alt="NairBits Diligital Literacy partners WKW" /></li>
-                                <li className="d-flex align-items-center"><img src="../imgs/mukuru.png" alt="NairBits Diligital Literacy partners MUKURU" /></li>
-                                <li className="d-flex align-items-center"><img src="../imgs/moh.png" alt="NairBits Diligital Literacy partners MOH" /></li>
-                                <li className="d-flex align-items-center"><img src="../imgs/hnp.png" alt="NairBits Diligital Literacy partners HNP" /></li>
-                                <li className="d-flex align-items-center"><img src="../imgs/nyendo.png" alt="NairBits Diligital Literacy partners NYENDO" /></li>
+                                <li className="d-flex align-items-center"><StaticImage src="../../images/yike.png" alt="NairBits Diligital Literacy partners YIKE" /></li>
+                                <li className="d-flex align-items-center"><StaticImage src="../../images/wkw.png" alt="NairBits Diligital Literacy partners WKW" /></li>
+                                <li className="d-flex align-items-center"><StaticImage src="../../images/mukuru.png" alt="NairBits Diligital Literacy partners MUKURU" /></li>
+                                <li className="d-flex align-items-center"><StaticImage src="../../images/moh.png" alt="NairBits Diligital Literacy partners MOH" /></li>
+                                <li className="d-flex align-items-center"><StaticImage src="../../images/hnp.png" alt="NairBits Diligital Literacy partners HNP" /></li>
+                                <li className="d-flex align-items-center"><StaticImage src="../../images/nyendo.png" alt="NairBits Diligital Literacy partners NYENDO" /></li>
                             </ul>
                         </Col>
                     </Row>

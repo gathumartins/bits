@@ -1,4 +1,5 @@
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 import { Container, Row, Col } from 'react-bootstrap';
 import * as proStyles from '../../components/WhatWeDo/Programs.module.css';
 import Layout from '../../components/Layout';
@@ -64,11 +65,11 @@ function rhrn() {
                             <Col xs={12} sm={12} md={5} className={`${proStyles.sideBar} mt-10 py-20 px-4 md:px-2`}>
                                 <h4>Program partners</h4>
                                 <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 gap-4 programsPartners">
-                                    <li className="d-flex align-items-center"><img src="../imgs/rhrn.png" alt="NairBits Advanced Multimedia program Edukans" /></li>
-                                    <li className="d-flex align-items-center"><img src="../imgs/naya.png" alt="NairBits Advanced Multimedia program Edukans" /></li>
-                                    <li className="d-flex align-items-center"><img src="../imgs/lovemat.png" alt="NairBits Advanced Multimedia program Edukans" /></li>
-                                    <li className="d-flex align-items-center"><img src="../imgs/srhr.png" alt="NairBits Advanced Multimedia program Edukans" /></li>
-                                    <li className="d-flex align-items-center"><img src="../imgs/csa.png" alt="NairBits Advanced Multimedia program Edukans" /></li>
+                                    <li className="d-flex align-items-center"><StaticImage src="../../images/rhrn.png" alt="NairBits Advanced Multimedia program Edukans" /></li>
+                                    <li className="d-flex align-items-center"><StaticImage src="../../images/naya.png" alt="NairBits Advanced Multimedia program Edukans" /></li>
+                                    <li className="d-flex align-items-center"><StaticImage src="../../images/lovemat.png" alt="NairBits Advanced Multimedia program Edukans" /></li>
+                                    <li className="d-flex align-items-center"><StaticImage src="../../images/srhr.png" alt="NairBits Advanced Multimedia program Edukans" /></li>
+                                    <li className="d-flex align-items-center"><StaticImage src="../../images/csa.png" alt="NairBits Advanced Multimedia program Edukans" /></li>
                                 </ul>
                             </Col>
                         </Row>

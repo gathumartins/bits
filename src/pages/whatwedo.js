@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import { Helmet } from 'react-helmet';
 import { Container, Row, Col } from 'react-bootstrap';
 import * as proStyles from '../components/WhatWeDo/Programs.module.css';
@@ -22,7 +23,7 @@ function programs() {
                                 </Col>
                                 <Col xs={12} sm={12} md={6}>
                                     <figure className="topsvg">
-                                        <img src="./imgs/topsvg.svg" fluid="true" alt="Nairobits programs top svg" />
+                                        <StaticImage src="../images/topsvg.svg" fluid="true" className="w-2/3 object-contain" alt="Nairobits programs top svg" />
                                     </figure>
                                 </Col>
                             </Row>
@@ -49,7 +50,7 @@ function programs() {
                                                         <p>A 12-week course for novice youth</p>
                                                     </div>
                                                     <div className={proStyles.progsBtm}>
-                                                        <img src="../imgs/dlp.png" fluid="true" alt="NairoBits Digital Literacy Program" />
+                                                        <StaticImage src="../images/dlp.png" fluid="true" alt="NairoBits Digital Literacy Program" />
                                                     </div>
                                                 </Link>
                                             </div>
@@ -60,7 +61,7 @@ function programs() {
                                                         <p>A 9 month apprenticeship diploma specialization in design or coding</p>
                                                     </div>
                                                     <div className={proStyles.progsBtm}>
-                                                        <img src="../imgs/amp.png" fluid="true" alt="NairoBits Advanced Multimedia Program" />
+                                                        <StaticImage src="../images/amp.png" fluid="true" alt="NairoBits Advanced Multimedia Program" />
                                                     </div>
                                                 </Link>
                                             </div>
@@ -71,7 +72,7 @@ function programs() {
                                                         <p>1 Week training that produces mobile storytellers</p>
                                                     </div>
                                                     <div className={proStyles.progsBtm}>
-                                                        <img src="../imgs/vit.png" fluid="true" alt="NairoBits Video impact training Program" />
+                                                        <StaticImage src="../images/vit.png" fluid="true" alt="NairoBits Video impact training Program" />
                                                     </div>
                                                 </Link>
                                             </div>
@@ -82,7 +83,7 @@ function programs() {
                                                         <p>Complimentary programs that promote responsible living</p>
                                                     </div>
                                                     <div className={proStyles.progsBtm}>
-                                                        <img src="../imgs/coreacumen.png" fluid="true" alt="NairoBits Core Acumen Program" />
+                                                        <StaticImage src="../images/coreacumen.png" fluid="true" alt="NairoBits Core Acumen Program" />
                                                     </div>
                                                 </Link>
                                             </div>
@@ -93,7 +94,7 @@ function programs() {
                                                         <p>Facilitating entry to the labour market through volunteerships, internships and corporate learning programs</p>
                                                     </div>
                                                     <div className={proStyles.progsBtm}>
-                                                        <img src="../imgs/lmi.png" fluid="true" alt="NairoBits labour market integration Program" />
+                                                        <StaticImage src="../images/lmi.png" fluid="true" alt="NairoBits labour market integration Program" />
                                                     </div>
                                                 </Link>
                                             </div>
@@ -120,7 +121,7 @@ function programs() {
                                                         <p>Preparing entrepreneurially gifted students for careers in business</p>
                                                     </div>
                                                     <div className={proStyles.progsBtm}>
-                                                        <img src="../imgs/coaching.png" fluid="true" alt="NairoBits enterprenuership and coaching Program" />
+                                                        <StaticImage src="../images/coaching.png" fluid="true" alt="NairoBits enterprenuership and coaching Program" />
                                                     </div>
                                                 </Link>
                                             </div>
@@ -131,7 +132,7 @@ function programs() {
                                                         <p>A 5 year consortium for the nationwide SRHR change</p>
                                                     </div>
                                                     <div className={proStyles.progsBtm}>
-                                                        <img src="../imgs/rhrn2.png" fluid="true" alt="NairoBits right here right now two Program" />
+                                                        <StaticImage src="../images/rhrn2.png" fluid="true" alt="NairoBits right here right now two Program" />
                                                     </div>
                                                 </Link>
                                             </div>
@@ -142,7 +143,7 @@ function programs() {
                                                         <p>Empowering youth to gain skills, voice, and participate in youth-identified policy priorities in Kenya regarding sexual and reproductive health and rights</p>
                                                     </div>
                                                     <div className={proStyles.progsBtm}>
-                                                        <img src="../imgs/youthinaction.png" fluid="true" alt="NairoBits youth in action Program" />
+                                                        <StaticImage src="../images/youthinaction.png" fluid="true" alt="NairoBits youth in action Program" />
                                                     </div>
                                                 </Link>
                                             </div>
@@ -169,7 +170,7 @@ function programs() {
                                                         <p>Preparing entrepreneurially gifted students for careers in business</p>
                                                     </div>
                                                     <div className={proStyles.progsBtm}>
-                                                        <img src="../imgs/wearebits.png" fluid="true" alt="NairoBits #wearebits Program" />
+                                                        <StaticImage src="../images/wearebits.png" fluid="true" alt="NairoBits #wearebits Program" />
                                                     </div>
                                                 </Link>
                                             </div>
@@ -180,7 +181,7 @@ function programs() {
                                                         <p>A 5 year consortium for the nationwide SRHR change</p>
                                                     </div>
                                                     <div className={proStyles.progsBtm}>
-                                                        <img src="../imgs/sbize.png" fluid="true" alt="NairoBits s-bize Program" />
+                                                        <StaticImage src="../images/sbize.png" fluid="true" alt="NairoBits s-bize Program" />
                                                     </div>
                                                 </Link>
                                             </div>
@@ -190,9 +191,9 @@ function programs() {
                             </div>
                         </section>
                         <section className={`${proStyles.proBtm} grid grid-cols-3`}>
-                            <img src="./imgs/probtmone.png" fluid="true" alt="Nairobits programs bottom" />
-                            <img src="./imgs/probtmtwo.png" fluid="true" alt="Nairobits programs bottom" />
-                            <img src="./imgs/probtmthree.png" fluid="true" alt="Nairobits programs bottom" />
+                            <StaticImage src="../images/probtmone.png" fluid="true" alt="Nairobits programs bottom" />
+                            <StaticImage src="../images/probtmtwo.png" fluid="true" alt="Nairobits programs bottom" />
+                            <StaticImage src="../images/probtmthree.png" fluid="true" alt="Nairobits programs bottom" />
                         </section>
                     </article>
                 </div>

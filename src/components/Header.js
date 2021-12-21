@@ -25,7 +25,7 @@ function Header() {
     return (
         <section className={`navbar fixed-top ${headerStyles.myHeader}`}>
             <header className="flex">
-                <div className={`${headerStyles.navBrand} bg-white absolute shadow-sm z-50`}>
+                <div className={`${headerStyles.navBrand} absolute shadow-sm z-50`}>
                     <div className={headerStyles.logoInn}></div>
                 </div>
                 <nav className={`fixed-top z-20 shadow-md px-4 ${myHeader ? `${headerStyles.navi}, ${headerStyles.scroll}` : `${headerStyles.navi}`}`}>
@@ -35,24 +35,18 @@ function Header() {
                             <li>
                                 <a href="/" className="py-4">HOME</a>
                             </li>
-                            {/*
                             <li className={`${headerStyles.deskDropdown}`}>
                                 <button className={`${headerStyles.dropbtn} py-4`}>WHO WE ARE
                                 </button>
                                 <div className={`${headerStyles.dropdownContent} px-4`}>
-                                    <Container fluid={`md`}>
-                                        <ul className={headerStyles.megaOuterList}>
-                                            <li className="w-screen">
-                                                <ul className={`${headerStyles.menuHeads}`}>
-                                                    <li className={headerStyles.megaLinks}><a href="/">HOME</a></li>
-                                                    <li className={headerStyles.megaLinks}><a href="/whoweare">WHO WE ARE</a></li>
-                                                    <li className={headerStyles.megaLinks}><a href="/">WHAT WE DO</a></li>
-                                                    <li className={headerStyles.megaLinks}><a href="/">JOIN US</a></li>
-                                                    <li className={headerStyles.megaLinks}><a href="/">OUR COMMUNITY</a></li>
-                                                    <li className={headerStyles.megaLinks}><a href="/">QUICK LINKS</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                    <Container fluid={`md`} className={`${headerStyles.dropdownContentInn} ${headerStyles.dropdownContOne}`}>
+                                        <div className="grid grid-cols-1">
+                                            <a href="/whoweare">WHO WE ARE</a>
+                                            <a href="/operatingmodel">Our operating model</a>
+                                            <a href="/history">Our History</a>
+                                            <a href="/team">Our Team</a>
+                                            <a href="/partners">Our Partners</a>
+                                        </div>
                                     </Container>
                                 </div>
                             </li>
@@ -60,7 +54,18 @@ function Header() {
                                 <button className={`${headerStyles.dropbtn} py-4`}>WHAT WE DO
                                 </button>
                                 <div className={`${headerStyles.dropdownContent} px-4`}>
-                                    <Container fluid={`md`}>
+                                    <Container fluid={`md`} className={`${headerStyles.dropdownContentInn} ${headerStyles.dropdownContTwo}`}>
+                                        <div>
+                                            <Link to="/whatwedo"><h3>What we do</h3></Link>
+                                            <Link to="/programs/dlp">Digital Literacy Program</Link>
+                                            <Link to="/programs/yact">YACT</Link>
+                                            <Link to="/programs/amp">Advanced Multimedia Program</Link>
+                                            <Link to="/programs/wearebits">#WeAreBits</Link>
+                                            <Link to="/programs/vit">Video Impact Training</Link>
+                                            <Link to="/programs/rhrn">RHRN</Link>
+                                            <Link to="/programs/labourmarket">Labour Market Integration</Link>
+                                            <Link to="/consultancy">Consulting Services</Link>
+                                        </div>
                                     </Container>
                                 </div>
                             </li>
@@ -68,7 +73,12 @@ function Header() {
                                 <button className={`${headerStyles.dropbtn} py-4`}>JOIN US
                                 </button>
                                 <div className={`${headerStyles.dropdownContent} px-4`}>
-                                    <Container fluid={`md`}>
+                                    <Container fluid={`md`} className={`${headerStyles.dropdownContentInn} ${headerStyles.dropdownContThree}`}>
+                                        <div className="grid grid-cols-1">
+                                            <Link to="/partners">Partner</Link>
+                                            <Link to="/volunteer">Volunteer</Link>
+                                            <Link to="/careers">Careers</Link>
+                                        </div>
                                     </Container>
                                 </div>
                             </li>
@@ -76,14 +86,28 @@ function Header() {
                                 <button className={`${headerStyles.dropbtn} py-4`}>OUR COMMUNITY
                                 </button>
                                 <div className={`${headerStyles.dropdownContent} px-4`}>
-                                    <Container fluid={`md`}>
+                                    <Container fluid={`md`} className={`${headerStyles.dropdownContentInn} ${headerStyles.dropdownContFour}`}>
+                                        <div>
+                                            <Link to="/alumni">Alumni</Link>
+                                            <Link to="/students">Students</Link>
+                                            <Link to="/programs/sbiz">S-Bize</Link>
+                                            <Link to="/impact">Our Impact</Link>
+                                        </div>
                                     </Container>
                                 </div>
                             </li>
-                            */}
                             <li className={`${headerStyles.deskDropdown}`}>
-                                <button className={`${headerStyles.dropbtn} py-4`} onClick={handleShow}><HiMenuAlt2 className="w-7 h-7" />
+                                <button className={`${headerStyles.dropbtn} py-4`}><HiMenuAlt2 className="w-7 h-7" />
                                 </button>
+                                <div className={`${headerStyles.dropdownContent} px-4`}>
+                                    <Container fluid={`md`} className={`${headerStyles.dropdownContentInn} ${headerStyles.dropdownContFive}`}>
+                                        <div>
+                                            <Link to="/resources">Resources</Link>
+                                            <a href="https://mailchi.mp/nairobits/the-nairobits-way-still-rising?e=[UNIQID]" target="_blank" rel="noreferrer">Newsletter</a>
+                                            <Link to="/news">Events/ News</Link>
+                                        </div>
+                                    </Container>
+                                </div>
                             </li>
                         </ul>
                         <ul className={`${headerStyles.menuBtns} inline-flex justify-items-end items-center space-x-5 mobileMenu`}>
@@ -117,6 +141,7 @@ function Header() {
                                 <li><Link to="/alumni">Alumni</Link></li>
                                 <li><Link to="/students">Students</Link></li>
                                 <li><Link to="/programs/sbiz">S-Bize</Link></li>
+                                <li><Link to="/impact">Our Impact</Link></li>
                             </ul>
                         </Col>
                         <Col xs={12} className="mb-4">
