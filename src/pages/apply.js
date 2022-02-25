@@ -28,7 +28,7 @@ function apply() {
                                             <div className={proStyles.dateUnder}></div>
                                             <a href="/programs/amp" className="progmore">Read more about program</a>
                                             <br />
-                                            <a href="https://applyamp.nairobits.com" className="my-2 applybtn disabled:opacity-75" target="_blank" rel="noreferrer">Apply</a>
+                                            <a href="https://applyamp.nairobits.com" className="my-2 applybtn disabled" target="_blank" rel="noreferrer">Apply</a>
                                         </div>
                                     </div>
                                     <div className={`d-flex ${proStyles.applyOut}`}>
@@ -51,7 +51,7 @@ function apply() {
                                             <a href="/programs/sbiz" className="progmore">Read more about program</a>
                                             <br />
 
-                                           <a href="/" className="my-2 applybtn disabled:opacity-75">Apply</a>
+                                            <a href="/" className="my-2 applybtn disabled">Apply</a>
                                         </div>
                                     </div>
                                     <div className={`d-flex ${proStyles.applyOut}`}>
@@ -62,7 +62,7 @@ function apply() {
                                             <div className={proStyles.dateUnder}></div>
                                             <a href="/programs/srhr" className="progmore">Read more about program</a>
                                             <br />
-                                            <a href="/" className="my-2 applybtn disabled:opacity-75">Apply</a> 
+                                            <a href="/" className="my-2 applybtn disabled">Apply</a> 
                                         </div>
                                     </div>
                                 </div>
