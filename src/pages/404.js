@@ -38,11 +38,11 @@ const NotFoundPage = () => {
         we couldn’t find what you were looking for.
         <br />
         {process.env.NODE_ENV === "development" ? (
-          <>
+          <React.Fragment>
             <br />
             Try creating a page in <code style={codeStyles}>src/pages/</code>.
             <br />
-          </>
+          </React.Fragment>
         ) : null}
         <br />
         <Link to="/">Go home</Link>.
