@@ -35,7 +35,7 @@ function apply() {
                                         <div className={`w-14 ${proStyles.headingIcons}`}></div>
                                         <div className={`flex-grow ${proStyles.applyInn}`}>
                                             <h3>Application for the Digital Literacy Program</h3>
-                                            <h4>Deadline: 22<sup>ND</sup> APRIL 2022</h4>
+                                            <h4>Deadline: 14<sup>TH</sup> AUGUST 2022</h4>
                                             <div className={proStyles.dateUnder}></div>
                                             <a href="/programs/dlp" className="progmore">Read more about program</a>
                                             <br />
