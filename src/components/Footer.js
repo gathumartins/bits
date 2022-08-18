@@ -109,7 +109,7 @@ function Footer() {
                             </Col>
                             <Col xs={6} sm={6} md={3} className="mb-4">
                                 <ul>
-                                    <li className={`rounded w-1/2 text-center mb-3 ${footStyles.doniAccess}`}><a href="https://i-access.vercel.app" className="p-1" target="_blank" rel="noreferrer">iACCESS</a></li>
+                                    <li className={`rounded w-1/2 text-center mb-3 ${footStyles.doniAccess}`}><a href="https://iaccess.co.ke" className="p-1" target="_blank" rel="noreferrer">iACCESS</a></li>
                                     <li className={`rounded w-1/2 text-center mb-3 ${footStyles.donBtn}`}><Link to="/donate" className="p-1">DONATE</Link></li>
                                     <li className={`rounded w-1/2 text-center mb-3 ${footStyles.applyBtn}`}><Link to="/apply" className="p-1">APPLY</Link></li>
                                 </ul>

@@ -20,7 +20,30 @@ h2 {
     letter-spacing: 0px;
     margin-bottom: 25px;
 }
+/* volunteer btn */
+.volBtnOuter{
+    max-width:300px;
+}
+.volBtn {
+    background: var(--deepGreen);
+    border: 3px solid var(--deepGreen);
+    transition: all ease 0.3s;
+    color: var(--white);
+   
+}
 
+.volBtn:hover {
+    background: transparent;
+    color: var(--deepGreen) ;
+}
+.volBtn a{
+    display: inline-block;
+     padding:8px;
+     width: 100%;
+}
+.volBtn a:hover{
+color: var(--deepGreen);
+}
 .banInn h2 {
     color: var(--deepBlue);
 }

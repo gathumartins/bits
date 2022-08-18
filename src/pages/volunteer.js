@@ -16,6 +16,9 @@ function volunteer() {
                         <Row>
                             <Col xs={12} sm={12} md={7} lg={7}>
                                 <h2>We make a living by what we get, but we make a life by what we give.<br /> <cite>- Winston Churchill ·</cite></h2>
+                                <ul className={`${volStyles.volBtnOuter}`}>
+                                    <li className={`rounded text-center mb-3 ${volStyles.volBtn}`}><a href="https://nairobitshelp.zendesk.com/hc/en-us/requests/new?ticket_form_id=6817351621777" className="p-2" target="_blank" rel="noreferrer">Apply to Volunteer</a></li>
+                                </ul>  
                             </Col>
                             <Col xs={12} sm={12} md={5} lg={5} className="relative">
                                 <img src="./imgs/volunteertop.png" fluid="true" alt="nairobits careers" className="absolute volImage" />
