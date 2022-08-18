@@ -14,22 +14,14 @@ function CareersBtm() {
                     </Col>
                     <Col xs={12} className={histStyles.careersInn}>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <div className={histStyles.career}>
+                            <a href="https://drive.google.com/file/d/1CbRFumDVgXrOrWoiWaq20j-P4JkilXKR/view" target="_blank" rel="noreferrer" className={histStyles.career}>
                                 <div className={histStyles.careerIcons}></div>
                                 <div>
-                                    <h5>Communications Lead</h5>
-                                    <p>Deadline : 12.Jul.2021</p>
-                                    <h6>FULL TIME</h6>
+                                    <h5>Customer Experience Trainer</h5>
+                                    <p>Deadline : 24.August.2022</p>
+                                    <h6>Consultancy</h6>
                                 </div>
-                            </div>
-                            <div className={histStyles.career}>
-                                <div className={histStyles.careerIcons}></div>
-                                <div>
-                                    <h5>Communications Lead Ass.</h5>
-                                    <p>Deadline : 12.Jul.2021</p>
-                                    <h6>INTERNSHIP</h6>
-                                </div>
-                            </div>
+                            </a>
                         </div>
                     </Col>
                     <Col xs={12} className={`text-center ${histStyles.careersFoot}`}>
