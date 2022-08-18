@@ -21,7 +21,7 @@ function students() {
                             <Col xs={12} sm={12} md={6} lg={6}>
                                 <p>NairoBits is a place to learn, open your mind, grow, try new things, innovate and build. We encourage students to experiment and put their curiosity to the test to ensure that they have the best learning experience. We consider our students as the top resource in the learning environment - their lives fuel inspiration for classes throughout the courses. In fact, we encourage each student to use their unique realities as challenges for solution-building. </p>
                             </Col>
-                            <Col xs={12} sm={12} md={6} lg={6} className={`bannerImage`}>
+                            <Col xs={12} sm={12} md={6} lg={6} className={`bannerImage bannerImageSpec`}>
                                 <img src="./imgs/students.png" fluid="true" alt="nairobits careers" className="careerImg" />
                             </Col>
                         </Row>

@@ -23,6 +23,17 @@ function apply() {
                                     <div className={`d-flex ${proStyles.applyOut}`}>
                                         <div className={`w-14 ${proStyles.headingIcons}`}></div>
                                         <div className={`flex-grow ${proStyles.applyInn}`}>
+                                            <h3>Application to NairoBits Volunteer Program</h3>
+                                            <h4>Deadline: Open</h4>
+                                            <div className={proStyles.dateUnder}></div>
+                                            <a href="/volunteer" className="progmore">Read more about program</a>
+                                            <br />
+                                            <a href="https://nairobitshelp.zendesk.com/hc/en-us/requests/new?ticket_form_id=6817351621777" className="my-2 applybtn disabled" target="_blank" rel="noreferrer">Apply</a>
+                                        </div>
+                                    </div>
+                                    <div className={`d-flex ${proStyles.applyOut}`}>
+                                        <div className={`w-14 ${proStyles.headingIcons}`}></div>
+                                        <div className={`flex-grow ${proStyles.applyInn}`}>
                                             <h3>Application for Advanced Multimedia Program</h3>
                                             <h4>Deadline: Applications Closed</h4>
                                             <div className={proStyles.dateUnder}></div>

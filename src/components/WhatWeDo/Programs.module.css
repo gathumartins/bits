@@ -239,7 +239,7 @@
     background-color: var(--lightGray)
 }
 
-.appCont>div:nth-child(odd) .headingIcons {
+.appCont>div> .headingIcons {
     position: relative;
 }
 
@@ -267,7 +267,30 @@
     background-color: var(--deepCyan);
     z-index: 1;
 }
+.appCont>div:nth-child(even) .headingIcons:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-left: 24px solid var(--siteOrange);
+    border-bottom: 12px solid transparent;
+    left: 30px;
+    top: 15px;
+    z-index: 2;
+}
 
+.appCont>div:nth-child(even) .headingIcons:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    left: 15px;
+    top: 30px;
+    background-color: var(--lighterGray);
+    z-index: 1;
+}
 .applyOut>div:last-child {
     padding: 20px 15px;
 }
