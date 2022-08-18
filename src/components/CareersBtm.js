@@ -19,7 +19,7 @@ function CareersBtm() {
                                 <div>
                                     <h5>Customer Experience Trainer</h5>
                                     <p>Deadline : 24.August.2022</p>
-                                    <h6>Consultancy</h6>
+                                    <h6>Contract</h6>
                                 </div>
                             </a>
                         </div>

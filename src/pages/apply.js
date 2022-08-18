@@ -23,7 +23,7 @@ function apply() {
                                     <div className={`d-flex ${proStyles.applyOut}`}>
                                         <div className={`w-14 ${proStyles.headingIcons}`}></div>
                                         <div className={`flex-grow ${proStyles.applyInn}`}>
-                                            <h3>Application to NairoBits Volunteer Program</h3>
+                                            <h3>Application for NairoBits Volunteer Opportunities</h3>
                                             <h4>Deadline: Open</h4>
                                             <div className={proStyles.dateUnder}></div>
                                             <a href="/volunteer" className="progmore">Read more about program</a>
