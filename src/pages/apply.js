@@ -40,7 +40,7 @@ function apply() {
                                             <a href="/programs/sbiz" className="progmore">Read more about program</a>
                                             <br />
 
-                                            <a href="https://docs.google.com/forms/d/1EtydXOtmYVkW5yDaPz8CFtmYwnap9JzwdvKhCknGyfA/edit" className="my-2 applybtn disabled" target="_blank" rel="noreferrer">Apply</a>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1XPDCaH1qUoWLpBnXsSH5jYWrFCUvG62n1DEbSwIhQ03HhA/viewform" className="my-2 applybtn disabled" target="_blank" rel="noreferrer">Apply</a>
                                         </div>
                                     </div>
                                     <div className={`d-flex ${proStyles.applyOut}`}>
