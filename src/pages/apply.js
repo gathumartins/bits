@@ -23,24 +23,35 @@ function apply() {
                                     <div className={`d-flex ${proStyles.applyOut}`}>
                                         <div className={`w-14 ${proStyles.headingIcons}`}></div>
                                         <div className={`flex-grow ${proStyles.applyInn}`}>
-                                            <h3>Application for NairoBits Volunteer Opportunities</h3>
-                                            <h4>Deadline: Open</h4>
+                                            <h3>Application for Customer Experience Trainer</h3>
+                                            <h4>Deadline: 24<sup>TH</sup> AUGUST 2022</h4>
                                             <div className={proStyles.dateUnder}></div>
-                                            <a href="/volunteer" className="progmore">Read more about program</a>
+                                            <a href="https://drive.google.com/file/d/1CbRFumDVgXrOrWoiWaq20j-P4JkilXKR/view" className="progmore" target="_blank" rel="noreferrer">Read more about the Vacancy</a>
                                             <br />
-                                            <a href="https://nairobitshelp.zendesk.com/hc/en-us/requests/new?ticket_form_id=6817351621777" className="my-2 applybtn disabled" target="_blank" rel="noreferrer">Apply</a>
+                                            <a href="https://drive.google.com/file/d/1CbRFumDVgXrOrWoiWaq20j-P4JkilXKR/view" className="my-2 applybtn" target="_blank" rel="noreferrer">Apply</a>
                                         </div>
                                     </div>
                                     <div className={`d-flex ${proStyles.applyOut}`}>
                                         <div className={`w-14 ${proStyles.headingIcons}`}></div>
                                         <div className={`flex-grow ${proStyles.applyInn}`}>
                                             <h3>Application for the S-Bize Program</h3>
-                                            <h4>Deadline: 5th September 2022</h4>
+                                            <h4>Deadline: 5<sup>TH</sup> SEPTEMBER 2022</h4>
                                             <div className={proStyles.dateUnder}></div>
                                             <a href="/programs/sbiz" className="progmore">Read more about program</a>
                                             <br />
 
                                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1XPDCaH1qUoWLpBnXsSH5jYWrFCUvG62n1DEbSwIhQ03HhA/viewform" className="my-2 applybtn disabled" target="_blank" rel="noreferrer">Apply</a>
+                                        </div>
+                                    </div>
+                                    <div className={`d-flex ${proStyles.applyOut}`}>
+                                        <div className={`w-14 ${proStyles.headingIcons}`}></div>
+                                        <div className={`flex-grow ${proStyles.applyInn}`}>
+                                            <h3>Application for NairoBits Volunteer Opportunities</h3>
+                                            <h4>Deadline: Open</h4>
+                                            <div className={proStyles.dateUnder}></div>
+                                            <a href="/volunteer" className="progmore">Read more about program</a>
+                                            <br />
+                                            <a href="https://nairobitshelp.zendesk.com/hc/en-us/requests/new?ticket_form_id=6817351621777" className="my-2 applybtn disabled" target="_blank" rel="noreferrer">Apply</a>
                                         </div>
                                     </div>
                                     <div className={`d-flex ${proStyles.applyOut}`}>
@@ -58,7 +69,7 @@ function apply() {
                                         <div className={`w-14 ${proStyles.headingIcons}`}></div>
                                         <div className={`flex-grow ${proStyles.applyInn}`}>
                                             <h3>Application for the Digital Literacy Program</h3>
-                                            <h4>Deadline: 14<sup>TH</sup> AUGUST 2022</h4>
+                                            <h4>Deadline: 26<sup>TH</sup> AUGUST 2022</h4>
                                             <div className={proStyles.dateUnder}></div>
                                             <a href="/programs/dlp" className="progmore">Read more about program</a>
                                             <br />
