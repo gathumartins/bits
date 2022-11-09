@@ -21,7 +21,7 @@ function impact() {
                                     </Col>
                                     <Col xs={12} className={proStyles.video}>
                                         <figure className="mt-10 md:mt-0 ratio ratio-16x9">
-                                            <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/BAmX1Mi93No"></iframe>
+                                            <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/BAmX1Mi93No" allowfullscreen="true"></iframe>
                                         </figure>
                                     </Col>
                                 </Row>
@@ -31,17 +31,20 @@ function impact() {
                 </section>
                 <section className="mt-20">
                     <Container fluid={`md`} className={proStyles.impactCont}>
-                        <h2 className={`text-center ${proStyles.impact}`}>Alumni Stories</h2>
+                        <h2 className={`text-center ${proStyles.impact}`}>Our Stories</h2>
                         <div className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 ${proStyles.video}`}>
-
                             <figure className="mt-10 md:mt-0 ratio ratio-4x3">
-                                <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/8K0CinTFY3s"></iframe>
+                                <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/XVWtKII-0Vo" allowfullscreen="true"></iframe>
+                            </figure>
+                            
+                            <figure className="mt-10 md:mt-0 ratio ratio-4x3">
+                                <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/8K0CinTFY3s" allowfullscreen="true"></iframe>
                             </figure>
                             <figure className="mt-10 md:mt-0 ratio ratio-4x3">
-                                <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/PsP5UvGPnhs"></iframe>
+                                <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/PsP5UvGPnhs" allowfullscreen="true"></iframe>
                             </figure>
                             <figure className="mt-10 md:mt-0 ratio ratio-4x3">
-                                <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/jD8Q7inXCuE"></iframe>
+                                <iframe title="Nairobits Digital Literacy program" src="https://www.youtube.com/embed/jD8Q7inXCuE" allowfullscreen="true"></iframe>
                             </figure>
                         </div>
                     </Container>

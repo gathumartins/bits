@@ -23,6 +23,16 @@ function resources() {
                                     </Col>
                                 </Row>
                                 <div className={`grid grid-cols-1 sm:grid-cols-2 gap-5 ${operateStyles.resCont}`}>
+                                    <a href="https://drive.google.com/file/d/126F6tDc5MW1FKcXvG9Ly-fg21XvEryvk/view" target="_blank" rel="noreferrer" download>
+                                        <div>
+                                            <div className={operateStyles.resContInn}>
+                                                <StaticImage src="../images/impact2021.jpeg" fluid="true" alt="" />
+                                                <div className={operateStyles.resContInnBtm}>
+                                                    <h1>Impact Report 2021</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
                                     <a href="https://drive.google.com/file/d/1tqCjxNKHFCOohMYBP_0J4noSji07f5Dd/view" target="_blank" rel="noreferrer" download>
                                         <div>
                                             <div className={operateStyles.resContInn}>

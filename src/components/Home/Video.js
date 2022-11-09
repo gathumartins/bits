@@ -18,7 +18,7 @@ function Video() {
                 <Col xs={12} sm={12} md={12} lg={6}>
                     <div className={`${vStyles.rightCont} relative`}>
                         <figure className="mt-10 md:mt-0 ratio ratio-4x3">
-                            <iframe title="Nairobits Home page video" src="https://www.youtube.com/embed/BAmX1Mi93No"></iframe>
+                            <iframe title="Nairobits Home page video" src="https://www.youtube.com/embed/BAmX1Mi93No" allowfullscreen="true"></iframe>
                         </figure>
                     </div>
                 </Col>
