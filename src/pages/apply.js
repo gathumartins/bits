@@ -23,34 +23,34 @@ function apply() {
                                     <div className={`d-flex ${proStyles.applyOut}`}>
                                         <div className={`w-14 ${proStyles.headingIcons}`}></div>
                                         <div className={`flex-grow ${proStyles.applyInn}`}>
-                                            <h3>Application for the S-Bize Program</h3>
-                                            <h4>Deadline: Applications Closed</h4>
-                                            <div className={proStyles.dateUnder}></div>
-                                            <a href="/programs/sbiz" className="progmore">Read more about program</a>
-                                            <br />
-
-                                        </div>
-                                    </div>
-                                    <div className={`d-flex ${proStyles.applyOut}`}>
-                                        <div className={`w-14 ${proStyles.headingIcons}`}></div>
-                                        <div className={`flex-grow ${proStyles.applyInn}`}>
                                             <h3>Application for Advanced Multimedia Program</h3>
-                                            <h4>Deadline: Applications Closed</h4>
+                                            <h4>Deadline: 9<sup>Th</sup> January 2023</h4>
                                             <div className={proStyles.dateUnder}></div>
                                             <a href="/programs/amp" className="progmore">Read more about program</a>
                                             <br />
-                                        {/* <a href="https://applyamp.nairobits.com" className="my-2 applybtn disabled" target="_blank" rel="noreferrer">Apply</a>*/}  
+                                            <a href="https://applyamp.nairobits.com" className="my-2 applybtn disabled" target="_blank" rel="noreferrer">Apply</a>
                                         </div>
                                     </div>
                                     <div className={`d-flex ${proStyles.applyOut}`}>
                                         <div className={`w-14 ${proStyles.headingIcons}`}></div>
                                         <div className={`flex-grow ${proStyles.applyInn}`}>
                                             <h3>Application for the Digital Literacy Program</h3>
-                                            <h4>Deadline: Applications Closed</h4>
+                                            <h4>Deadline: 9<sup>Th</sup> January 2023</h4>
                                             <div className={proStyles.dateUnder}></div>
                                             <a href="/programs/dlp" className="progmore">Read more about program</a>
                                             <br />
-                                            {/*  <a href="https://applydlp.nairobits.com" className="my-2 applybtn" target="_blank" rel="noreferrer">Apply</a>*/}
+                                            <a href="https://applydlp.nairobits.com" className="my-2 applybtn" target="_blank" rel="noreferrer">Apply</a>
+                                        </div>
+                                    </div>
+                                    <div className={`d-flex ${proStyles.applyOut}`}>
+                                        <div className={`w-14 ${proStyles.headingIcons}`}></div>
+                                        <div className={`flex-grow ${proStyles.applyInn}`}>
+                                            <h3>Application for the S-Bize Program</h3>
+                                            <h4>Deadline: Applications Closed</h4>
+                                            <div className={proStyles.dateUnder}></div>
+                                            <a href="/programs/sbiz" className="progmore">Read more about program</a>
+                                            <br />
+
                                         </div>
                                     </div>
                                     <div className={`d-flex ${proStyles.applyOut}`}>
